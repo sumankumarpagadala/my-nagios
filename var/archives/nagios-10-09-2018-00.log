@@ -1,0 +1,873 @@
+[1538886564] Nagios 4.3.2 starting... (PID=26462)
+[1538886564] Local time is Sun Oct 07 09:59:24 IST 2018
+[1538886564] LOG VERSION: 2.0
+[1538886564] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538886564] qh: core query handler registered
+[1538886564] nerd: Channel hostchecks registered successfully
+[1538886564] nerd: Channel servicechecks registered successfully
+[1538886564] nerd: Channel opathchecks registered successfully
+[1538886564] nerd: Fully initialized and ready to rock!
+[1538886564] wproc: Successfully registered manager as @wproc with query handler
+[1538886564] wproc: Registry request: name=Core Worker 26467;pid=26467
+[1538886564] wproc: Registry request: name=Core Worker 26464;pid=26464
+[1538886564] wproc: Registry request: name=Core Worker 26465;pid=26465
+[1538886564] wproc: Registry request: name=Core Worker 26466;pid=26466
+[1538886565] Successfully launched command file worker with pid 26476
+[1538886676] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.002 second response time
+[1538886736] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.002 second response time
+[1538886796] SERVICE ALERT: localhost;HTTP;OK;SOFT;3;HTTP OK: HTTP/1.1 200 OK - 269 bytes in 0.002 second response time
+[1538887525] Caught SIGTERM, shutting down...
+[1538887526] Successfully shutdown... (PID=26462)
+[1538887526] Event broker module 'NERD' deinitialized successfully.
+[1538887527] Nagios 4.3.2 starting... (PID=26859)
+[1538887527] Local time is Sun Oct 07 10:15:27 IST 2018
+[1538887527] LOG VERSION: 2.0
+[1538887527] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538887527] qh: core query handler registered
+[1538887527] nerd: Channel hostchecks registered successfully
+[1538887527] nerd: Channel servicechecks registered successfully
+[1538887527] nerd: Channel opathchecks registered successfully
+[1538887527] nerd: Fully initialized and ready to rock!
+[1538887527] wproc: Successfully registered manager as @wproc with query handler
+[1538887527] wproc: Registry request: name=Core Worker 26864;pid=26864
+[1538887527] wproc: Registry request: name=Core Worker 26861;pid=26861
+[1538887527] wproc: Registry request: name=Core Worker 26862;pid=26862
+[1538887527] wproc: Registry request: name=Core Worker 26863;pid=26863
+[1538887527] Successfully launched command file worker with pid 26865
+[1538887545] EXTERNAL COMMAND: ENABLE_SVC_NOTIFICATIONS;localhost;HTTP
+[1538887602] EXTERNAL COMMAND: ENABLE_SVC_NOTIFICATIONS;localhost;SSH
+[1538887677] Caught SIGTERM, shutting down...
+[1538887677] Successfully shutdown... (PID=26859)
+[1538887677] Event broker module 'NERD' deinitialized successfully.
+[1538887678] Nagios 4.3.2 starting... (PID=27060)
+[1538887678] Local time is Sun Oct 07 10:17:58 IST 2018
+[1538887678] LOG VERSION: 2.0
+[1538887678] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538887678] qh: core query handler registered
+[1538887678] nerd: Channel hostchecks registered successfully
+[1538887678] nerd: Channel servicechecks registered successfully
+[1538887678] nerd: Channel opathchecks registered successfully
+[1538887678] nerd: Fully initialized and ready to rock!
+[1538887678] wproc: Successfully registered manager as @wproc with query handler
+[1538887678] wproc: Registry request: name=Core Worker 27065;pid=27065
+[1538887678] wproc: Registry request: name=Core Worker 27062;pid=27062
+[1538887678] wproc: Registry request: name=Core Worker 27063;pid=27063
+[1538887678] wproc: Registry request: name=Core Worker 27064;pid=27064
+[1538887678] Successfully launched command file worker with pid 27066
+[1538887681] HOST ALERT: winserver;DOWN;SOFT;1;CRITICAL - Host Unreachable (192.168.1.2)
+[1538887702] Caught SIGTERM, shutting down...
+[1538887702] Successfully shutdown... (PID=27060)
+[1538887702] Event broker module 'NERD' deinitialized successfully.
+[1538887703] Nagios 4.3.2 starting... (PID=27140)
+[1538887703] Local time is Sun Oct 07 10:18:23 IST 2018
+[1538887703] LOG VERSION: 2.0
+[1538887703] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538887703] qh: core query handler registered
+[1538887703] nerd: Channel hostchecks registered successfully
+[1538887703] nerd: Channel servicechecks registered successfully
+[1538887703] nerd: Channel opathchecks registered successfully
+[1538887703] nerd: Fully initialized and ready to rock!
+[1538887703] wproc: Successfully registered manager as @wproc with query handler
+[1538887703] wproc: Registry request: name=Core Worker 27142;pid=27142
+[1538887703] wproc: Registry request: name=Core Worker 27143;pid=27143
+[1538887703] wproc: Registry request: name=Core Worker 27144;pid=27144
+[1538887703] wproc: Registry request: name=Core Worker 27145;pid=27145
+[1538887703] Successfully launched command file worker with pid 27146
+[1538888080] Caught SIGTERM, shutting down...
+[1538888080] Successfully shutdown... (PID=27140)
+[1538888080] Event broker module 'NERD' deinitialized successfully.
+[1538888080] Nagios 4.3.2 starting... (PID=75129)
+[1538888080] Local time is Sun Oct 07 10:24:40 IST 2018
+[1538888080] LOG VERSION: 2.0
+[1538888080] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538888080] qh: core query handler registered
+[1538888080] nerd: Channel hostchecks registered successfully
+[1538888080] nerd: Channel servicechecks registered successfully
+[1538888080] nerd: Channel opathchecks registered successfully
+[1538888080] nerd: Fully initialized and ready to rock!
+[1538888080] wproc: Successfully registered manager as @wproc with query handler
+[1538888080] wproc: Registry request: name=Core Worker 75134;pid=75134
+[1538888080] wproc: Registry request: name=Core Worker 75131;pid=75131
+[1538888080] wproc: Registry request: name=Core Worker 75132;pid=75132
+[1538888080] wproc: Registry request: name=Core Worker 75133;pid=75133
+[1538888080] Successfully launched command file worker with pid 75135
+[1538888110] wproc: Core Worker 75134: job 0 (pid=75136) timed out. Killing it
+[1538888110] wproc: CHECK job 0 from worker Core Worker 75134 timed out after 30.02s
+[1538888110] wproc:   host=Dell7480-2252; service=(null);
+[1538888110] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1538888110] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1538888110] HOST ALERT: Dell7480-2252;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1538888110] wproc: Core Worker 75134: job 0 (pid=75136): Dormant child reaped
+[1538888174] HOST ALERT: Dell7480-2252;UP;SOFT;2;PING OK - Packet loss = 0%, RTA = 14.40 ms
+[1538888192] SERVICE ALERT: Dell7480-2252;CPU Load;CRITICAL;SOFT;1;connect to address 192.168.1.2 and port 12489: Connection refused
+[1538888248] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;CRITICAL;SOFT;1;connect to address 192.168.1.2 and port 12489: Connection refused
+[1538888306] SERVICE ALERT: Dell7480-2252;Explorer;CRITICAL;SOFT;1;connect to address 192.168.1.2 and port 12489: Connection refused
+[1538888307] Caught SIGTERM, shutting down...
+[1538888307] Successfully shutdown... (PID=75129)
+[1538888307] Event broker module 'NERD' deinitialized successfully.
+[1538888309] Nagios 4.3.2 starting... (PID=75250)
+[1538888309] Local time is Sun Oct 07 10:28:29 IST 2018
+[1538888309] LOG VERSION: 2.0
+[1538888309] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538888309] qh: core query handler registered
+[1538888309] nerd: Channel hostchecks registered successfully
+[1538888309] nerd: Channel servicechecks registered successfully
+[1538888309] nerd: Channel opathchecks registered successfully
+[1538888309] nerd: Fully initialized and ready to rock!
+[1538888309] wproc: Successfully registered manager as @wproc with query handler
+[1538888309] wproc: Registry request: name=Core Worker 75255;pid=75255
+[1538888309] wproc: Registry request: name=Core Worker 75252;pid=75252
+[1538888309] wproc: Registry request: name=Core Worker 75253;pid=75253
+[1538888309] wproc: Registry request: name=Core Worker 75254;pid=75254
+[1538888309] Successfully launched command file worker with pid 75256
+[1538888312] SERVICE ALERT: Dell7480-2252;CPU Load;WARNING;SOFT;2;could not fetch information from server
+[1538888361] SERVICE ALERT: Dell7480-2252;Memory Usage;WARNING;SOFT;1;could not fetch information from server
+[1538888365] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;WARNING;SOFT;2;could not fetch information from server
+[1538888368] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;WARNING;SOFT;2;could not fetch information from server
+[1538888379] Caught SIGTERM, shutting down...
+[1538888379] Successfully shutdown... (PID=75250)
+[1538888379] Event broker module 'NERD' deinitialized successfully.
+[1538888380] Nagios 4.3.2 starting... (PID=75384)
+[1538888380] Local time is Sun Oct 07 10:29:40 IST 2018
+[1538888380] LOG VERSION: 2.0
+[1538888380] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538888380] qh: core query handler registered
+[1538888380] nerd: Channel hostchecks registered successfully
+[1538888380] nerd: Channel servicechecks registered successfully
+[1538888380] nerd: Channel opathchecks registered successfully
+[1538888380] nerd: Fully initialized and ready to rock!
+[1538888380] wproc: Successfully registered manager as @wproc with query handler
+[1538888380] wproc: Registry request: name=Core Worker 75389;pid=75389
+[1538888380] wproc: Registry request: name=Core Worker 75386;pid=75386
+[1538888380] wproc: Registry request: name=Core Worker 75387;pid=75387
+[1538888380] wproc: Registry request: name=Core Worker 75388;pid=75388
+[1538888380] Successfully launched command file worker with pid 75390
+[1538888398] Caught SIGTERM, shutting down...
+[1538888398] Successfully shutdown... (PID=75384)
+[1538888398] Event broker module 'NERD' deinitialized successfully.
+[1538888399] Nagios 4.3.2 starting... (PID=75443)
+[1538888399] Local time is Sun Oct 07 10:29:59 IST 2018
+[1538888399] LOG VERSION: 2.0
+[1538888399] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538888399] qh: core query handler registered
+[1538888399] nerd: Channel hostchecks registered successfully
+[1538888399] nerd: Channel servicechecks registered successfully
+[1538888399] nerd: Channel opathchecks registered successfully
+[1538888399] nerd: Fully initialized and ready to rock!
+[1538888399] wproc: Successfully registered manager as @wproc with query handler
+[1538888400] wproc: Registry request: name=Core Worker 75448;pid=75448
+[1538888400] wproc: Registry request: name=Core Worker 75445;pid=75445
+[1538888400] wproc: Registry request: name=Core Worker 75446;pid=75446
+[1538888400] wproc: Registry request: name=Core Worker 75447;pid=75447
+[1538888400] Successfully launched command file worker with pid 75449
+[1538888456] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;WARNING;SOFT;1;could not fetch information from server
+[1538888512] SERVICE ALERT: Dell7480-2252;CPU Load;WARNING;SOFT;1;could not fetch information from server
+[1538888568] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;WARNING;SOFT;1;could not fetch information from server
+[1538888576] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;WARNING;SOFT;2;could not fetch information from server
+[1538888625] SERVICE ALERT: Dell7480-2252;Explorer;CRITICAL;SOFT;1;Explorer.exe: not running
+[1538888632] SERVICE ALERT: Dell7480-2252;CPU Load;OK;SOFT;2;CPU Load 0% (5 min average)
+[1538888654] Caught SIGTERM, shutting down...
+[1538888654] Successfully shutdown... (PID=75443)
+[1538888654] Event broker module 'NERD' deinitialized successfully.
+[1538888661] Nagios 4.3.2 starting... (PID=75624)
+[1538888661] Local time is Sun Oct 07 10:34:21 IST 2018
+[1538888661] LOG VERSION: 2.0
+[1538888661] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538888661] qh: core query handler registered
+[1538888661] nerd: Channel hostchecks registered successfully
+[1538888661] nerd: Channel servicechecks registered successfully
+[1538888661] nerd: Channel opathchecks registered successfully
+[1538888661] nerd: Fully initialized and ready to rock!
+[1538888661] wproc: Successfully registered manager as @wproc with query handler
+[1538888661] wproc: Registry request: name=Core Worker 75629;pid=75629
+[1538888661] wproc: Registry request: name=Core Worker 75626;pid=75626
+[1538888661] wproc: Registry request: name=Core Worker 75627;pid=75627
+[1538888661] wproc: Registry request: name=Core Worker 75628;pid=75628
+[1538888661] Successfully launched command file worker with pid 75630
+[1538888688] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;OK;SOFT;2;D:\ - total: 200.00 Gb - used: 56.69 Gb (28%) - free 143.31 Gb (72%)
+[1538888696] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;OK;SOFT;3;D:\ - total: 200.00 Gb - used: 56.69 Gb (28%) - free 143.31 Gb (72%)
+[1538888745] SERVICE ALERT: Dell7480-2252;Explorer;CRITICAL;SOFT;2;Explorer.exe: not running
+[1538888865] SERVICE ALERT: Dell7480-2252;Explorer;CRITICAL;HARD;3;Explorer.exe: not running
+[1538888865] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Explorer;CRITICAL;notify-service-by-email;Explorer.exe: not running
+[1538889069] Caught SIGTERM, shutting down...
+[1538889069] Successfully shutdown... (PID=75624)
+[1538889069] Event broker module 'NERD' deinitialized successfully.
+[1538889070] Nagios 4.3.2 starting... (PID=75856)
+[1538889070] Local time is Sun Oct 07 10:41:10 IST 2018
+[1538889070] LOG VERSION: 2.0
+[1538889070] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538889070] qh: core query handler registered
+[1538889070] nerd: Channel hostchecks registered successfully
+[1538889070] nerd: Channel servicechecks registered successfully
+[1538889070] nerd: Channel opathchecks registered successfully
+[1538889070] nerd: Fully initialized and ready to rock!
+[1538889070] wproc: Successfully registered manager as @wproc with query handler
+[1538889070] wproc: Registry request: name=Core Worker 75861;pid=75861
+[1538889070] wproc: Registry request: name=Core Worker 75858;pid=75858
+[1538889070] wproc: Registry request: name=Core Worker 75859;pid=75859
+[1538889070] wproc: Registry request: name=Core Worker 75860;pid=75860
+[1538889070] Successfully launched command file worker with pid 75862
+[1538889166] Caught SIGTERM, shutting down...
+[1538889166] Successfully shutdown... (PID=75856)
+[1538889166] Event broker module 'NERD' deinitialized successfully.
+[1538889167] Nagios 4.3.2 starting... (PID=75952)
+[1538889167] Local time is Sun Oct 07 10:42:47 IST 2018
+[1538889167] LOG VERSION: 2.0
+[1538889167] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538889167] qh: core query handler registered
+[1538889167] nerd: Channel hostchecks registered successfully
+[1538889167] nerd: Channel servicechecks registered successfully
+[1538889167] nerd: Channel opathchecks registered successfully
+[1538889167] nerd: Fully initialized and ready to rock!
+[1538889167] wproc: Successfully registered manager as @wproc with query handler
+[1538889167] wproc: Registry request: name=Core Worker 75957;pid=75957
+[1538889167] wproc: Registry request: name=Core Worker 75954;pid=75954
+[1538889167] wproc: Registry request: name=Core Worker 75955;pid=75955
+[1538889167] wproc: Registry request: name=Core Worker 75956;pid=75956
+[1538889167] Successfully launched command file worker with pid 75958
+[1538889187] Caught SIGTERM, shutting down...
+[1538889187] Successfully shutdown... (PID=75952)
+[1538889187] Event broker module 'NERD' deinitialized successfully.
+[1538889211] Nagios 4.3.2 starting... (PID=76046)
+[1538889211] Local time is Sun Oct 07 10:43:31 IST 2018
+[1538889211] LOG VERSION: 2.0
+[1538889211] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538889211] qh: core query handler registered
+[1538889211] nerd: Channel hostchecks registered successfully
+[1538889211] nerd: Channel servicechecks registered successfully
+[1538889211] nerd: Channel opathchecks registered successfully
+[1538889211] nerd: Fully initialized and ready to rock!
+[1538889211] wproc: Successfully registered manager as @wproc with query handler
+[1538889211] wproc: Registry request: name=Core Worker 76048;pid=76048
+[1538889211] wproc: Registry request: name=Core Worker 76049;pid=76049
+[1538889211] wproc: Registry request: name=Core Worker 76050;pid=76050
+[1538889211] wproc: Registry request: name=Core Worker 76051;pid=76051
+[1538889211] Successfully launched command file worker with pid 76052
+[1538889240] Caught SIGTERM, shutting down...
+[1538889240] Successfully shutdown... (PID=76046)
+[1538889240] Event broker module 'NERD' deinitialized successfully.
+[1538889241] Nagios 4.3.2 starting... (PID=76109)
+[1538889241] Local time is Sun Oct 07 10:44:01 IST 2018
+[1538889241] LOG VERSION: 2.0
+[1538889241] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538889241] qh: core query handler registered
+[1538889241] nerd: Channel hostchecks registered successfully
+[1538889241] nerd: Channel servicechecks registered successfully
+[1538889241] nerd: Channel opathchecks registered successfully
+[1538889241] nerd: Fully initialized and ready to rock!
+[1538889241] wproc: Successfully registered manager as @wproc with query handler
+[1538889241] wproc: Registry request: name=Core Worker 76114;pid=76114
+[1538889241] wproc: Registry request: name=Core Worker 76111;pid=76111
+[1538889241] wproc: Registry request: name=Core Worker 76112;pid=76112
+[1538889241] wproc: Registry request: name=Core Worker 76113;pid=76113
+[1538889241] Successfully launched command file worker with pid 76115
+[1538889267] Caught SIGTERM, shutting down...
+[1538889267] Successfully shutdown... (PID=76109)
+[1538889267] Event broker module 'NERD' deinitialized successfully.
+[1538889268] Nagios 4.3.2 starting... (PID=76192)
+[1538889268] Local time is Sun Oct 07 10:44:28 IST 2018
+[1538889268] LOG VERSION: 2.0
+[1538889268] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538889268] qh: core query handler registered
+[1538889268] nerd: Channel hostchecks registered successfully
+[1538889268] nerd: Channel servicechecks registered successfully
+[1538889268] nerd: Channel opathchecks registered successfully
+[1538889268] nerd: Fully initialized and ready to rock!
+[1538889268] wproc: Successfully registered manager as @wproc with query handler
+[1538889268] wproc: Registry request: name=Core Worker 76197;pid=76197
+[1538889268] wproc: Registry request: name=Core Worker 76194;pid=76194
+[1538889268] wproc: Registry request: name=Core Worker 76195;pid=76195
+[1538889268] wproc: Registry request: name=Core Worker 76196;pid=76196
+[1538889268] Successfully launched command file worker with pid 76198
+[1538889324] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;WARNING;SOFT;1;C:\ - total: 275.36 Gb - used: 108.27 Gb (39%) - free 167.09 Gb (61%)
+[1538889444] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;WARNING;SOFT;2;C:\ - total: 275.36 Gb - used: 108.27 Gb (39%) - free 167.09 Gb (61%)
+[1538889493] SERVICE ALERT: Dell7480-2252;Explorer;CRITICAL;SOFT;1;Explorer.exe: not running
+[1538889559] Caught SIGTERM, shutting down...
+[1538889559] Successfully shutdown... (PID=76192)
+[1538889559] Event broker module 'NERD' deinitialized successfully.
+[1538889560] Nagios 4.4.2 starting... (PID=79746)
+[1538889560] Local time is Sun Oct 07 10:49:20 IST 2018
+[1538889560] LOG VERSION: 2.0
+[1538889560] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538889560] qh: core query handler registered
+[1538889560] qh: echo service query handler registered
+[1538889560] qh: help for the query handler registered
+[1538889560] wproc: Successfully registered manager as @wproc with query handler
+[1538889560] wproc: Registry request: name=Core Worker 79751;pid=79751
+[1538889560] wproc: Registry request: name=Core Worker 79748;pid=79748
+[1538889560] wproc: Registry request: name=Core Worker 79749;pid=79749
+[1538889560] wproc: Registry request: name=Core Worker 79750;pid=79750
+[1538889560] Successfully launched command file worker with pid 79752
+[1538889564] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;C:\ Drive Space;WARNING;notify-service-by-email;C:\ - total: 275.36 Gb - used: 108.39 Gb (39%) - free 166.97 Gb (61%)
+[1538889564] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;WARNING;HARD;3;C:\ - total: 275.36 Gb - used: 108.39 Gb (39%) - free 166.97 Gb (61%)
+[1538889614] SERVICE ALERT: Dell7480-2252;Explorer;CRITICAL;SOFT;2;Explorer.exe: not running
+[1538889734] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Explorer;CRITICAL;notify-service-by-email;Explorer.exe: not running
+[1538889734] SERVICE ALERT: Dell7480-2252;Explorer;CRITICAL;HARD;3;Explorer.exe: not running
+[1538890059] Caught SIGTERM, shutting down...
+[1538890059] Successfully shutdown... (PID=79746)
+[1538890060] Nagios 4.4.2 starting... (PID=80040)
+[1538890060] Local time is Sun Oct 07 10:57:40 IST 2018
+[1538890060] LOG VERSION: 2.0
+[1538890060] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538890060] qh: core query handler registered
+[1538890060] qh: echo service query handler registered
+[1538890060] qh: help for the query handler registered
+[1538890060] wproc: Successfully registered manager as @wproc with query handler
+[1538890060] wproc: Registry request: name=Core Worker 80044;pid=80044
+[1538890060] wproc: Registry request: name=Core Worker 80045;pid=80045
+[1538890060] wproc: Registry request: name=Core Worker 80042;pid=80042
+[1538890060] wproc: Registry request: name=Core Worker 80043;pid=80043
+[1538890060] Successfully launched command file worker with pid 80046
+[1538890113] SERVICE ALERT: Dell7480-2252;wuauserv;UNKNOWN;SOFT;1;Usage:
+[1538890233] SERVICE ALERT: Dell7480-2252;wuauserv;UNKNOWN;SOFT;2;Usage:
+[1538890353] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;wuauserv;UNKNOWN;notify-service-by-email;Usage:
+[1538890353] SERVICE ALERT: Dell7480-2252;wuauserv;UNKNOWN;HARD;3;Usage:
+[1538892615] SERVICE ALERT: Dell7480-2252;NSClient++ Version;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1538892615] HOST ALERT: Dell7480-2252;DOWN;SOFT;1;CRITICAL - Network Unreachable (192.168.1.3)
+[1538892661] SERVICE ALERT: Dell7480-2252;Uptime;CRITICAL;HARD;1;connect to address 192.168.1.3 and port 12489: Network is unreachable
+[1538892718] SERVICE ALERT: Dell7480-2252;W3SVC;CRITICAL;HARD;1;connect to address 192.168.1.3 and port 12489: Network is unreachable
+[1538892735] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;NSClient++ Version;CRITICAL;notify-service-by-email;connect to address 192.168.1.3 and port 12489: Network is unreachable
+[1538892735] SERVICE ALERT: Dell7480-2252;NSClient++ Version;CRITICAL;HARD;1;connect to address 192.168.1.3 and port 12489: Network is unreachable
+[1538892781] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Uptime;CRITICAL;notify-service-by-email;connect to address 192.168.1.3 and port 12489: Network is unreachable
+[1538892838] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;W3SVC;CRITICAL;notify-service-by-email;connect to address 192.168.1.3 and port 12489: Network is unreachable
+[1538892920] HOST ALERT: Dell7480-2252;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.61 ms
+[1538893164] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;C:\ Drive Space;WARNING;notify-service-by-email;C:\ - total: 275.36 Gb - used: 108.40 Gb (39%) - free 166.96 Gb (61%)
+[1538893335] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Explorer;CRITICAL;notify-service-by-email;Explorer.exe: not running
+[1538893335] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0.5.2.35 2018-01-28
+[1538893335] SERVICE ALERT: Dell7480-2252;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.2.35 2018-01-28
+[1538893381] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Uptime;OK;notify-service-by-email;System Uptime - 2 day(s) 22 hour(s) 34 minute(s)
+[1538893381] SERVICE ALERT: Dell7480-2252;Uptime;OK;HARD;1;System Uptime - 2 day(s) 22 hour(s) 34 minute(s)
+[1538893438] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;W3SVC;OK;notify-service-by-email;W3SVC: Started
+[1538893438] SERVICE ALERT: Dell7480-2252;W3SVC;OK;HARD;1;W3SVC: Started
+[1538893660] Auto-save of retention data completed successfully.
+[1538893953] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;wuauserv;UNKNOWN;notify-service-by-email;Usage:
+[1538910141] Warning: A system time change of 13997 seconds (0d 3h 53m 17s forwards in time) has been detected.  Compensating...
+[1538910157] Caught SIGTERM, shutting down...
+[1538910157] Successfully shutdown... (PID=80040)
+[1538989297] Nagios 4.4.2 starting... (PID=1060)
+[1538989297] Local time is Mon Oct 08 14:31:37 IST 2018
+[1538989297] LOG VERSION: 2.0
+[1538989297] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538989297] qh: core query handler registered
+[1538989297] qh: echo service query handler registered
+[1538989297] qh: help for the query handler registered
+[1538989297] wproc: Successfully registered manager as @wproc with query handler
+[1538989297] wproc: Registry request: name=Core Worker 1068;pid=1068
+[1538989297] wproc: Registry request: name=Core Worker 1069;pid=1069
+[1538989297] wproc: Registry request: name=Core Worker 1070;pid=1070
+[1538989297] wproc: Registry request: name=Core Worker 1071;pid=1071
+[1538989297] Successfully launched command file worker with pid 1075
+[1538989298] HOST ALERT: Dell7480-2252;DOWN;SOFT;1;CRITICAL - Network Unreachable (192.168.1.3)
+[1538989360] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1538989360] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1538989388] wproc: Core Worker 1070: job 0 (pid=2471) timed out. Killing it
+[1538989388] wproc: CHECK job 0 from worker Core Worker 1070 timed out after 30.04s
+[1538989388] wproc:   host=Dell7480-2252; service=(null);
+[1538989388] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1538989388] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1538989388] wproc: Core Worker 1070: job 0 (pid=2471): Dormant child reaped
+[1538989414] SERVICE ALERT: Dell7480-2252;CPU Load;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1538989468] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1538989478] wproc: Core Worker 1070: job 2 (pid=2728) timed out. Killing it
+[1538989478] wproc: CHECK job 2 from worker Core Worker 1070 timed out after 30.02s
+[1538989478] wproc:   host=Dell7480-2252; service=(null);
+[1538989478] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1538989478] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1538989478] wproc: Core Worker 1070: job 2 (pid=2728): Dormant child reaped
+[1538989522] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Explorer;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1538989544] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1538989568] wproc: Core Worker 1068: job 4 (pid=2982) timed out. Killing it
+[1538989568] wproc: CHECK job 4 from worker Core Worker 1068 timed out after 30.01s
+[1538989568] wproc:   host=Dell7480-2252; service=(null);
+[1538989568] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1538989568] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1538989568] wproc: Core Worker 1068: job 4 (pid=2982): Dormant child reaped
+[1538989576] SERVICE ALERT: Dell7480-2252;Memory Usage;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1538989598] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;D:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1538989630] SERVICE ALERT: Dell7480-2252;NSClient++ Version;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1538989650] Caught SIGTERM, shutting down...
+[1538989650] Successfully shutdown... (PID=1060)
+[1538989651] Nagios 4.4.2 starting... (PID=3393)
+[1538989651] Local time is Mon Oct 08 14:37:31 IST 2018
+[1538989651] LOG VERSION: 2.0
+[1538989651] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538989651] qh: core query handler registered
+[1538989651] qh: echo service query handler registered
+[1538989651] qh: help for the query handler registered
+[1538989651] wproc: Successfully registered manager as @wproc with query handler
+[1538989651] wproc: Registry request: name=Core Worker 3398;pid=3398
+[1538989651] wproc: Registry request: name=Core Worker 3395;pid=3395
+[1538989651] wproc: Registry request: name=Core Worker 3396;pid=3396
+[1538989651] wproc: Registry request: name=Core Worker 3397;pid=3397
+[1538989652] Successfully launched command file worker with pid 3399
+[1538989682] wproc: Core Worker 3398: job 0 (pid=3400) timed out. Killing it
+[1538989682] wproc: CHECK job 0 from worker Core Worker 3398 timed out after 30.03s
+[1538989682] wproc:   host=Dell7480-2252; service=(null);
+[1538989682] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1538989682] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1538989682] wproc: Core Worker 3398: job 0 (pid=3400): Dormant child reaped
+[1538989684] SERVICE ALERT: Dell7480-2252;Uptime;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1538989691] Caught SIGTERM, shutting down...
+[1538989691] Successfully shutdown... (PID=3393)
+[1538989692] Nagios 4.4.2 starting... (PID=3609)
+[1538989692] Local time is Mon Oct 08 14:38:12 IST 2018
+[1538989692] LOG VERSION: 2.0
+[1538989692] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538989692] qh: core query handler registered
+[1538989692] qh: echo service query handler registered
+[1538989692] qh: help for the query handler registered
+[1538989692] wproc: Successfully registered manager as @wproc with query handler
+[1538989692] wproc: Registry request: name=Core Worker 3614;pid=3614
+[1538989692] wproc: Registry request: name=Core Worker 3611;pid=3611
+[1538989692] wproc: Registry request: name=Core Worker 3612;pid=3612
+[1538989692] wproc: Registry request: name=Core Worker 3613;pid=3613
+[1538989692] Successfully launched command file worker with pid 3615
+[1538989722] Caught SIGTERM, shutting down...
+[1538989722] Successfully shutdown... (PID=3609)
+[1538989723] Nagios 4.4.2 starting... (PID=3776)
+[1538989723] Local time is Mon Oct 08 14:38:43 IST 2018
+[1538989723] LOG VERSION: 2.0
+[1538989723] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538989723] qh: core query handler registered
+[1538989723] qh: echo service query handler registered
+[1538989723] qh: help for the query handler registered
+[1538989723] wproc: Successfully registered manager as @wproc with query handler
+[1538989723] wproc: Registry request: name=Core Worker 3781;pid=3781
+[1538989723] wproc: Registry request: name=Core Worker 3778;pid=3778
+[1538989723] wproc: Registry request: name=Core Worker 3779;pid=3779
+[1538989723] wproc: Registry request: name=Core Worker 3780;pid=3780
+[1538989723] Successfully launched command file worker with pid 3782
+[1538989753] wproc: Core Worker 3781: job 0 (pid=3783) timed out. Killing it
+[1538989753] wproc: CHECK job 0 from worker Core Worker 3781 timed out after 30.02s
+[1538989753] wproc:   host=Dell7480-2252; service=(null);
+[1538989753] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1538989753] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1538989753] HOST ALERT: Dell7480-2252;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1538989753] wproc: Core Worker 3781: job 0 (pid=3783): Dormant child reaped
+[1538989786] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1538989840] SERVICE ALERT: Dell7480-2252;CPU Load;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1538989843] wproc: Core Worker 3778: job 1 (pid=4063) timed out. Killing it
+[1538989843] wproc: CHECK job 1 from worker Core Worker 3778 timed out after 30.04s
+[1538989843] wproc:   host=Dell7480-2252; service=(null);
+[1538989843] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1538989843] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1538989843] wproc: Core Worker 3778: job 1 (pid=4063): Dormant child reaped
+[1538989894] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1538989916] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1538989933] wproc: Core Worker 3780: job 2 (pid=4320) timed out. Killing it
+[1538989933] wproc: CHECK job 2 from worker Core Worker 3780 timed out after 30.03s
+[1538989933] wproc:   host=Dell7480-2252; service=(null);
+[1538989933] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1538989933] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1538989934] wproc: Core Worker 3780: job 2 (pid=4320): Dormant child reaped
+[1538989945] Caught SIGTERM, shutting down...
+[1538989945] Successfully shutdown... (PID=3776)
+[1538989946] Nagios 4.4.2 starting... (PID=4490)
+[1538989946] Local time is Mon Oct 08 14:42:26 IST 2018
+[1538989946] LOG VERSION: 2.0
+[1538989946] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538989946] qh: core query handler registered
+[1538989946] qh: echo service query handler registered
+[1538989946] qh: help for the query handler registered
+[1538989946] wproc: Successfully registered manager as @wproc with query handler
+[1538989946] wproc: Registry request: name=Core Worker 4495;pid=4495
+[1538989946] wproc: Registry request: name=Core Worker 4492;pid=4492
+[1538989946] wproc: Registry request: name=Core Worker 4493;pid=4493
+[1538989946] wproc: Registry request: name=Core Worker 4494;pid=4494
+[1538989946] Successfully launched command file worker with pid 4496
+[1538990409] Caught SIGTERM, shutting down...
+[1538990409] Successfully shutdown... (PID=4490)
+[1538990410] Nagios 4.4.2 starting... (PID=5774)
+[1538990410] Local time is Mon Oct 08 14:50:10 IST 2018
+[1538990410] LOG VERSION: 2.0
+[1538990410] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538990410] qh: core query handler registered
+[1538990410] qh: echo service query handler registered
+[1538990410] qh: help for the query handler registered
+[1538990410] wproc: Successfully registered manager as @wproc with query handler
+[1538990410] wproc: Registry request: name=Core Worker 5778;pid=5778
+[1538990410] wproc: Registry request: name=Core Worker 5779;pid=5779
+[1538990410] wproc: Registry request: name=Core Worker 5776;pid=5776
+[1538990410] wproc: Registry request: name=Core Worker 5777;pid=5777
+[1538990410] Successfully launched command file worker with pid 5780
+[1538990662] Caught SIGTERM, shutting down...
+[1538990662] Successfully shutdown... (PID=5774)
+[1538990663] Nagios 4.4.2 starting... (PID=6575)
+[1538990663] Local time is Mon Oct 08 14:54:23 IST 2018
+[1538990663] LOG VERSION: 2.0
+[1538990663] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538990663] qh: core query handler registered
+[1538990663] qh: echo service query handler registered
+[1538990663] qh: help for the query handler registered
+[1538990663] wproc: Successfully registered manager as @wproc with query handler
+[1538990663] wproc: Registry request: name=Core Worker 6580;pid=6580
+[1538990663] wproc: Registry request: name=Core Worker 6577;pid=6577
+[1538990663] wproc: Registry request: name=Core Worker 6578;pid=6578
+[1538990663] wproc: Registry request: name=Core Worker 6579;pid=6579
+[1538990663] Successfully launched command file worker with pid 6581
+[1538990834] Caught SIGTERM, shutting down...
+[1538990835] Successfully shutdown... (PID=6575)
+[1538990836] Nagios 4.4.2 starting... (PID=7091)
+[1538990836] Local time is Mon Oct 08 14:57:16 IST 2018
+[1538990836] LOG VERSION: 2.0
+[1538990836] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538990836] qh: core query handler registered
+[1538990836] qh: echo service query handler registered
+[1538990836] qh: help for the query handler registered
+[1538990836] wproc: Successfully registered manager as @wproc with query handler
+[1538990836] wproc: Registry request: name=Core Worker 7093;pid=7093
+[1538990836] wproc: Registry request: name=Core Worker 7094;pid=7094
+[1538990836] wproc: Registry request: name=Core Worker 7095;pid=7095
+[1538990836] wproc: Registry request: name=Core Worker 7096;pid=7096
+[1538990836] Successfully launched command file worker with pid 7097
+[1538990946] Caught SIGTERM, shutting down...
+[1538990946] Successfully shutdown... (PID=7091)
+[1538990947] Nagios 4.4.2 starting... (PID=7443)
+[1538990947] Local time is Mon Oct 08 14:59:07 IST 2018
+[1538990947] LOG VERSION: 2.0
+[1538990947] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538990947] qh: core query handler registered
+[1538990947] qh: echo service query handler registered
+[1538990947] qh: help for the query handler registered
+[1538990947] wproc: Successfully registered manager as @wproc with query handler
+[1538990947] wproc: Registry request: name=Core Worker 7448;pid=7448
+[1538990947] wproc: Registry request: name=Core Worker 7445;pid=7445
+[1538990947] wproc: Registry request: name=Core Worker 7446;pid=7446
+[1538990947] wproc: Registry request: name=Core Worker 7447;pid=7447
+[1538990947] Successfully launched command file worker with pid 7449
+[1538991006] Caught SIGTERM, shutting down...
+[1538991006] Successfully shutdown... (PID=7443)
+[1538991007] Nagios 4.4.2 starting... (PID=7662)
+[1538991007] Local time is Mon Oct 08 15:00:07 IST 2018
+[1538991007] LOG VERSION: 2.0
+[1538991007] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538991007] qh: core query handler registered
+[1538991007] qh: echo service query handler registered
+[1538991007] qh: help for the query handler registered
+[1538991007] wproc: Successfully registered manager as @wproc with query handler
+[1538991007] wproc: Registry request: name=Core Worker 7667;pid=7667
+[1538991007] wproc: Registry request: name=Core Worker 7664;pid=7664
+[1538991007] wproc: Registry request: name=Core Worker 7665;pid=7665
+[1538991007] wproc: Registry request: name=Core Worker 7666;pid=7666
+[1538991007] Successfully launched command file worker with pid 7668
+[1538991707] Caught SIGTERM, shutting down...
+[1538991707] Successfully shutdown... (PID=7662)
+[1538991708] Nagios 4.4.2 starting... (PID=9665)
+[1538991708] Local time is Mon Oct 08 15:11:48 IST 2018
+[1538991708] LOG VERSION: 2.0
+[1538991708] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538991708] qh: core query handler registered
+[1538991708] qh: echo service query handler registered
+[1538991708] qh: help for the query handler registered
+[1538991708] wproc: Successfully registered manager as @wproc with query handler
+[1538991708] wproc: Registry request: name=Core Worker 9670;pid=9670
+[1538991708] wproc: Registry request: name=Core Worker 9667;pid=9667
+[1538991708] wproc: Registry request: name=Core Worker 9668;pid=9668
+[1538991708] wproc: Registry request: name=Core Worker 9669;pid=9669
+[1538991708] Successfully launched command file worker with pid 9671
+[1538991840] SERVICE ALERT: NEW-OFFICE-L3-SW;Uptime;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1538991916] Caught SIGTERM, shutting down...
+[1538991916] Successfully shutdown... (PID=9665)
+[1538991918] Nagios 4.4.2 starting... (PID=10412)
+[1538991918] Local time is Mon Oct 08 15:15:18 IST 2018
+[1538991918] LOG VERSION: 2.0
+[1538991918] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538991918] qh: core query handler registered
+[1538991918] qh: echo service query handler registered
+[1538991918] qh: help for the query handler registered
+[1538991918] wproc: Successfully registered manager as @wproc with query handler
+[1538991918] wproc: Registry request: name=Core Worker 10417;pid=10417
+[1538991918] wproc: Registry request: name=Core Worker 10414;pid=10414
+[1538991918] wproc: Registry request: name=Core Worker 10415;pid=10415
+[1538991918] wproc: Registry request: name=Core Worker 10416;pid=10416
+[1538991918] Successfully launched command file worker with pid 10418
+[1538991960] SERVICE ALERT: NEW-OFFICE-L3-SW;Uptime;CRITICAL;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1538992014] Caught SIGTERM, shutting down...
+[1538992014] Successfully shutdown... (PID=10412)
+[1538992015] Nagios 4.4.2 starting... (PID=10778)
+[1538992015] Local time is Mon Oct 08 15:16:55 IST 2018
+[1538992015] LOG VERSION: 2.0
+[1538992015] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538992015] qh: core query handler registered
+[1538992015] qh: echo service query handler registered
+[1538992015] qh: help for the query handler registered
+[1538992015] wproc: Successfully registered manager as @wproc with query handler
+[1538992015] wproc: Registry request: name=Core Worker 10783;pid=10783
+[1538992015] wproc: Registry request: name=Core Worker 10780;pid=10780
+[1538992015] wproc: Registry request: name=Core Worker 10781;pid=10781
+[1538992015] wproc: Registry request: name=Core Worker 10782;pid=10782
+[1538992015] Successfully launched command file worker with pid 10784
+[1538992034] EXTERNAL COMMAND: DISABLE_SVC_NOTIFICATIONS;NEW-OFFICE-L3-SW;Uptime
+[1538992041] EXTERNAL COMMAND: ENABLE_SVC_NOTIFICATIONS;NEW-OFFICE-L3-SW;Uptime
+[1538992051] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;NEW-OFFICE-L3-SW;Uptime;1538992046
+[1538992051] SERVICE NOTIFICATION: nagiosadmin;NEW-OFFICE-L3-SW;Uptime;CRITICAL;notify-service-by-email;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1538992051] SERVICE ALERT: NEW-OFFICE-L3-SW;Uptime;CRITICAL;HARD;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_snmp, ...) failed. errno is 2: No such file or directory
+[1538992134] EXTERNAL COMMAND: DISABLE_SVC_CHECK;NEW-OFFICE-L3-SW;Uptime
+[1538992143] EXTERNAL COMMAND: ENABLE_SVC_CHECK;NEW-OFFICE-L3-SW;Uptime
+[1538992210] Caught SIGTERM, shutting down...
+[1538992210] Successfully shutdown... (PID=10778)
+[1538992211] Nagios 4.4.2 starting... (PID=11558)
+[1538992211] Local time is Mon Oct 08 15:20:11 IST 2018
+[1538992211] LOG VERSION: 2.0
+[1538992211] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538992211] qh: core query handler registered
+[1538992211] qh: echo service query handler registered
+[1538992211] qh: help for the query handler registered
+[1538992211] wproc: Successfully registered manager as @wproc with query handler
+[1538992211] wproc: Registry request: name=Core Worker 11563;pid=11563
+[1538992211] wproc: Registry request: name=Core Worker 11560;pid=11560
+[1538992211] wproc: Registry request: name=Core Worker 11561;pid=11561
+[1538992211] wproc: Registry request: name=Core Worker 11562;pid=11562
+[1538992211] Successfully launched command file worker with pid 11564
+[1538992346] Caught SIGTERM, shutting down...
+[1538992346] Successfully shutdown... (PID=11558)
+[1538993331] Nagios 4.4.2 starting... (PID=1057)
+[1538993331] Local time is Mon Oct 08 15:38:51 IST 2018
+[1538993331] LOG VERSION: 2.0
+[1538993331] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538993331] qh: core query handler registered
+[1538993331] qh: echo service query handler registered
+[1538993331] qh: help for the query handler registered
+[1538993331] wproc: Successfully registered manager as @wproc with query handler
+[1538993331] wproc: Registry request: name=Core Worker 1062;pid=1062
+[1538993331] wproc: Registry request: name=Core Worker 1059;pid=1059
+[1538993331] wproc: Registry request: name=Core Worker 1061;pid=1061
+[1538993331] wproc: Registry request: name=Core Worker 1060;pid=1060
+[1538993331] Successfully launched command file worker with pid 1067
+[1538994633] Caught SIGTERM, shutting down...
+[1538994633] Successfully shutdown... (PID=1057)
+[1538994634] Nagios 4.4.2 starting... (PID=4989)
+[1538994634] Local time is Mon Oct 08 16:00:34 IST 2018
+[1538994634] LOG VERSION: 2.0
+[1538994634] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538994634] qh: core query handler registered
+[1538994634] qh: echo service query handler registered
+[1538994634] qh: help for the query handler registered
+[1538994634] wproc: Successfully registered manager as @wproc with query handler
+[1538994634] wproc: Registry request: name=Core Worker 4994;pid=4994
+[1538994634] wproc: Registry request: name=Core Worker 4991;pid=4991
+[1538994634] wproc: Registry request: name=Core Worker 4992;pid=4992
+[1538994634] wproc: Registry request: name=Core Worker 4993;pid=4993
+[1538994634] Successfully launched command file worker with pid 4995
+[1538994687] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;UNKNOWN;SOFT;1;Free disk space : Invalid drive
+[1538994741] SERVICE ALERT: Dell7480-2252;CPU Load;WARNING;SOFT;1;could not fetch information from server
+[1538994767] Caught SIGTERM, shutting down...
+[1538994767] Successfully shutdown... (PID=4989)
+[1538994784] Nagios 4.4.2 starting... (PID=1054)
+[1538994784] Local time is Mon Oct 08 16:03:04 IST 2018
+[1538994784] LOG VERSION: 2.0
+[1538994784] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538994784] qh: core query handler registered
+[1538994784] qh: echo service query handler registered
+[1538994784] qh: help for the query handler registered
+[1538994784] wproc: Successfully registered manager as @wproc with query handler
+[1538994784] wproc: Registry request: name=Core Worker 1059;pid=1059
+[1538994784] wproc: Registry request: name=Core Worker 1056;pid=1056
+[1538994784] wproc: Registry request: name=Core Worker 1057;pid=1057
+[1538994784] wproc: Registry request: name=Core Worker 1058;pid=1058
+[1538994784] Successfully launched command file worker with pid 1063
+[1538994795] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;CRITICAL;SOFT;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1538994795] HOST ALERT: Dell7480-2252;DOWN;SOFT;1;CRITICAL - Network Unreachable (192.168.140.159)
+[1538994807] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;C:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1538994807] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1538994849] SERVICE ALERT: Dell7480-2252;Explorer;WARNING;HARD;1;could not fetch information from server
+[1538994859] HOST ALERT: Dell7480-2252;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 3.55 ms
+[1538994861] SERVICE ALERT: Dell7480-2252;CPU Load;WARNING;SOFT;2;could not fetch information from server
+[1538994876] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;C:\ Drive Space;1538994873
+[1538994876] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;WARNING;SOFT;1;could not fetch information from server
+[1538994883] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;CPU Load;1538994882
+[1538994883] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;CPU Load;WARNING;notify-service-by-email;could not fetch information from server
+[1538994883] SERVICE ALERT: Dell7480-2252;CPU Load;WARNING;HARD;3;could not fetch information from server
+[1538994890] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;D:\ Drive Space;1538994889
+[1538994890] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;WARNING;SOFT;2;could not fetch information from server
+[1538994898] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;Explorer;1538994897
+[1538994898] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Explorer;WARNING;notify-service-by-email;could not fetch information from server
+[1538994903] SERVICE ALERT: Dell7480-2252;Memory Usage;WARNING;SOFT;1;could not fetch information from server
+[1538994932] Caught SIGTERM, shutting down...
+[1538994932] Successfully shutdown... (PID=1054)
+[1538994933] Nagios 4.4.2 starting... (PID=2640)
+[1538994933] Local time is Mon Oct 08 16:05:33 IST 2018
+[1538994933] LOG VERSION: 2.0
+[1538994933] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538994933] qh: core query handler registered
+[1538994933] qh: echo service query handler registered
+[1538994933] qh: help for the query handler registered
+[1538994933] wproc: Successfully registered manager as @wproc with query handler
+[1538994933] wproc: Registry request: name=Core Worker 2645;pid=2645
+[1538994933] wproc: Registry request: name=Core Worker 2642;pid=2642
+[1538994933] wproc: Registry request: name=Core Worker 2643;pid=2643
+[1538994933] wproc: Registry request: name=Core Worker 2644;pid=2644
+[1538994933] Successfully launched command file worker with pid 2646
+[1538994973] Caught SIGTERM, shutting down...
+[1538994973] Successfully shutdown... (PID=2640)
+[1538994974] Nagios 4.4.2 starting... (PID=2716)
+[1538994974] Local time is Mon Oct 08 16:06:14 IST 2018
+[1538994974] LOG VERSION: 2.0
+[1538994974] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538994974] qh: core query handler registered
+[1538994974] qh: echo service query handler registered
+[1538994974] qh: help for the query handler registered
+[1538994974] wproc: Successfully registered manager as @wproc with query handler
+[1538994974] wproc: Registry request: name=Core Worker 2718;pid=2718
+[1538994974] wproc: Registry request: name=Core Worker 2719;pid=2719
+[1538994974] wproc: Registry request: name=Core Worker 2720;pid=2720
+[1538994974] wproc: Registry request: name=Core Worker 2721;pid=2721
+[1538994974] Successfully launched command file worker with pid 2722
+[1538995027] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;WARNING;SOFT;1;could not fetch information from server
+[1538995081] SERVICE ALERT: Dell7480-2252;CPU Load;WARNING;SOFT;1;could not fetch information from server
+[1538995135] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;WARNING;SOFT;1;could not fetch information from server
+[1538995147] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;WARNING;SOFT;2;could not fetch information from server
+[1538995189] SERVICE ALERT: Dell7480-2252;Explorer;WARNING;SOFT;1;could not fetch information from server
+[1538995201] SERVICE ALERT: Dell7480-2252;CPU Load;WARNING;SOFT;2;could not fetch information from server
+[1538995243] SERVICE ALERT: Dell7480-2252;Memory Usage;UNKNOWN;SOFT;1;could not fetch information from server
+[1538995255] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;WARNING;SOFT;2;could not fetch information from server
+[1538995267] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;C:\ Drive Space;WARNING;notify-service-by-email;could not fetch information from server
+[1538995267] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;WARNING;HARD;3;could not fetch information from server
+[1538995309] SERVICE ALERT: Dell7480-2252;Explorer;CRITICAL;SOFT;2;Explorer.exe: not running
+[1538995321] SERVICE ALERT: Dell7480-2252;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1538995342] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;C:\ Drive Space;1538995341
+[1538995357] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;D:\ Drive Space;1538995356
+[1538995357] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;D:\ Drive Space;WARNING;notify-service-by-email;D:\ - total: 200.00 Gb - used: 56.78 Gb (28%) - free 143.22 Gb (72%)
+[1538995357] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;WARNING;HARD;3;D:\ - total: 200.00 Gb - used: 56.78 Gb (28%) - free 143.22 Gb (72%)
+[1538995363] SERVICE ALERT: Dell7480-2252;Memory Usage;OK;HARD;1;Memory usage: total:19212.55 MB - used: 14379.15 MB (75%) - free: 4833.40 MB (25%)
+[1538995430] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Explorer;CRITICAL;notify-service-by-email;Explorer.exe: not running
+[1538995430] SERVICE ALERT: Dell7480-2252;Explorer;CRITICAL;HARD;3;Explorer.exe: not running
+[1538995459] SERVICE ALERT: Dell7480-2252;wuauserv;UNKNOWN;SOFT;1;Usage:
+[1538995486] Caught SIGTERM, shutting down...
+[1538995486] Successfully shutdown... (PID=2716)
+[1538995487] Nagios 4.4.2 starting... (PID=3049)
+[1538995487] Local time is Mon Oct 08 16:14:47 IST 2018
+[1538995487] LOG VERSION: 2.0
+[1538995487] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538995487] qh: core query handler registered
+[1538995487] qh: echo service query handler registered
+[1538995487] qh: help for the query handler registered
+[1538995487] wproc: Successfully registered manager as @wproc with query handler
+[1538995487] wproc: Registry request: name=Core Worker 3054;pid=3054
+[1538995487] wproc: Registry request: name=Core Worker 3051;pid=3051
+[1538995487] wproc: Registry request: name=Core Worker 3052;pid=3052
+[1538995487] wproc: Registry request: name=Core Worker 3053;pid=3053
+[1538995487] Successfully launched command file worker with pid 3055
+[1538995525] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;C:\ Drive Space;1538995524
+[1538995525] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;C:\ Drive Space;OK;notify-service-by-email;C:\ - total: 275.36 Gb - used: 108.37 Gb (39%) - free 166.99 Gb (61%)
+[1538995525] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;OK;HARD;1;C:\ - total: 275.36 Gb - used: 108.37 Gb (39%) - free 166.99 Gb (61%)
+[1538995534] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;D:\ Drive Space;1538995533
+[1538995534] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;D:\ Drive Space;OK;notify-service-by-email;D:\ - total: 200.00 Gb - used: 56.78 Gb (28%) - free 143.22 Gb (72%)
+[1538995534] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;OK;HARD;1;D:\ - total: 200.00 Gb - used: 56.78 Gb (28%) - free 143.22 Gb (72%)
+[1538995579] SERVICE ALERT: Dell7480-2252;wuauserv;UNKNOWN;SOFT;2;Usage:
+[1538995699] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;wuauserv;UNKNOWN;notify-service-by-email;Usage:
+[1538995699] SERVICE ALERT: Dell7480-2252;wuauserv;UNKNOWN;HARD;3;Usage:
+[1538995730] Caught SIGTERM, shutting down...
+[1538995730] Successfully shutdown... (PID=3049)
+[1538995731] Nagios 4.4.2 starting... (PID=3222)
+[1538995731] Local time is Mon Oct 08 16:18:51 IST 2018
+[1538995731] LOG VERSION: 2.0
+[1538995731] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538995731] qh: core query handler registered
+[1538995731] qh: echo service query handler registered
+[1538995731] qh: help for the query handler registered
+[1538995731] wproc: Successfully registered manager as @wproc with query handler
+[1538995731] wproc: Registry request: name=Core Worker 3227;pid=3227
+[1538995731] wproc: Registry request: name=Core Worker 3224;pid=3224
+[1538995731] wproc: Registry request: name=Core Worker 3225;pid=3225
+[1538995731] wproc: Registry request: name=Core Worker 3226;pid=3226
+[1538995731] Successfully launched command file worker with pid 3228
+[1538995774] Caught SIGTERM, shutting down...
+[1538995774] Successfully shutdown... (PID=3222)
+[1538995775] Nagios 4.4.2 starting... (PID=3289)
+[1538995775] Local time is Mon Oct 08 16:19:35 IST 2018
+[1538995775] LOG VERSION: 2.0
+[1538995775] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1538995775] qh: core query handler registered
+[1538995775] qh: echo service query handler registered
+[1538995775] qh: help for the query handler registered
+[1538995775] wproc: Successfully registered manager as @wproc with query handler
+[1538995775] wproc: Registry request: name=Core Worker 3294;pid=3294
+[1538995775] wproc: Registry request: name=Core Worker 3291;pid=3291
+[1538995775] wproc: Registry request: name=Core Worker 3292;pid=3292
+[1538995775] wproc: Registry request: name=Core Worker 3293;pid=3293
+[1538995775] Successfully launched command file worker with pid 3295
+[1538995790] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;nscp;1538995790
+[1538999375] Auto-save of retention data completed successfully.
+[1539001789] wproc: Core Worker 3293: job 69 (pid=4855) timed out. Killing it
+[1539001789] wproc: CHECK job 69 from worker Core Worker 3293 timed out after 30.02s
+[1539001789] wproc:   host=Dell7480-2252; service=(null);
+[1539001789] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1539001789] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1539001789] HOST ALERT: Dell7480-2252;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1539001789] wproc: Core Worker 3293: job 69 (pid=4855): Dormant child reaped
+[1539001793] SERVICE ALERT: Dell7480-2252;nscp;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: No route to host
+[1539001900] SERVICE ALERT: Dell7480-2252;NSClient++ Version;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: No route to host
+[1539001915] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;nscp;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: No route to host
+[1539001924] SERVICE ALERT: Dell7480-2252;CPU Load;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: No route to host
+[1539001954] SERVICE ALERT: Dell7480-2252;Uptime;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: No route to host
+[1539001966] SERVICE ALERT: Dell7480-2252;Memory Usage;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: No route to host
+[1539002005] SERVICE ALERT: Dell7480-2252;W3SVC;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1539002020] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;NSClient++ Version;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1539002044] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;CPU Load;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1539002074] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Uptime;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1539002086] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Memory Usage;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1539002125] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1539002125] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;W3SVC;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1539002134] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1539002245] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;C:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1539002254] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;D:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1539002335] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1539002335] HOST ALERT: Dell7480-2252;DOWN;HARD;10;CRITICAL - Network Unreachable (192.168.140.159)
+[1539002975] Auto-save of retention data completed successfully.
+[1539004135] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1539005935] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1539006575] Auto-save of retention data completed successfully.
+[1539007735] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1539008125] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;W3SVC;OK;notify-service-by-email;W3SVC: Started
+[1539008125] SERVICE ALERT: Dell7480-2252;W3SVC;OK;HARD;1;W3SVC: Started
+[1539008129] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 1.83 ms
+[1539008129] HOST ALERT: Dell7480-2252;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.83 ms
+[1539008245] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;C:\ Drive Space;OK;notify-service-by-email;C:\ - total: 275.36 Gb - used: 108.45 Gb (39%) - free 166.91 Gb (61%)
+[1539008245] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;OK;HARD;1;C:\ - total: 275.36 Gb - used: 108.45 Gb (39%) - free 166.91 Gb (61%)
+[1539008254] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;D:\ Drive Space;OK;notify-service-by-email;D:\ - total: 200.00 Gb - used: 56.78 Gb (28%) - free 143.22 Gb (72%)
+[1539008254] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;OK;HARD;1;D:\ - total: 200.00 Gb - used: 56.78 Gb (28%) - free 143.22 Gb (72%)
+[1539008346] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;CPU Load;1539008345
+[1539008346] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;CPU Load;OK;notify-service-by-email;CPU Load 22% (5 min average)
+[1539008346] SERVICE ALERT: Dell7480-2252;CPU Load;OK;HARD;1;CPU Load 22% (5 min average)
+[1539008357] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;Memory Usage;1539008356
+[1539008357] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Memory Usage;OK;notify-service-by-email;Memory usage: total:19212.55 MB - used: 13361.80 MB (70%) - free: 5850.75 MB (30%)
+[1539008357] SERVICE ALERT: Dell7480-2252;Memory Usage;OK;HARD;1;Memory usage: total:19212.55 MB - used: 13361.80 MB (70%) - free: 5850.75 MB (30%)
+[1539008364] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;NSClient++ Version;1539008363
+[1539008364] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0.5.2.35 2018-01-28
+[1539008364] SERVICE ALERT: Dell7480-2252;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.2.35 2018-01-28
+[1539008369] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;Uptime;1539008368
+[1539008369] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Uptime;OK;notify-service-by-email;System Uptime - 4 day(s) 17 hour(s) 30 minute(s)
+[1539008369] SERVICE ALERT: Dell7480-2252;Uptime;OK;HARD;1;System Uptime - 4 day(s) 17 hour(s) 30 minute(s)
+[1539008375] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;nscp;1539008374
+[1539008375] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;nscp;OK;notify-service-by-email;nscp.exe: Running
+[1539008375] SERVICE ALERT: Dell7480-2252;nscp;OK;HARD;1;nscp.exe: Running
+[1539008390] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;nscp;1539008389
+[1539010175] Auto-save of retention data completed successfully.
+[1539013775] Auto-save of retention data completed successfully.
+[1539016912] Caught SIGTERM, shutting down...
+[1539016912] Successfully shutdown... (PID=3289)
+[1539016914] Nagios 4.4.2 starting... (PID=16045)
+[1539016914] Local time is Mon Oct 08 22:11:54 IST 2018
+[1539016914] LOG VERSION: 2.0
+[1539016914] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539016914] qh: core query handler registered
+[1539016914] qh: echo service query handler registered
+[1539016914] qh: help for the query handler registered
+[1539016914] wproc: Successfully registered manager as @wproc with query handler
+[1539016914] wproc: Registry request: name=Core Worker 16050;pid=16050
+[1539016914] wproc: Registry request: name=Core Worker 16047;pid=16047
+[1539016914] wproc: Registry request: name=Core Worker 16048;pid=16048
+[1539016914] wproc: Registry request: name=Core Worker 16049;pid=16049
+[1539016914] Successfully launched command file worker with pid 16051
+[1539017048] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;W3SVC;1539017042
+[1539017048] SERVICE ALERT: Dell7480-2252;W3SVC;CRITICAL;SOFT;1;W3SVC: Stopped
+[1539017168] SERVICE ALERT: Dell7480-2252;W3SVC;CRITICAL;SOFT;2;W3SVC: Stopped
+[1539017288] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;W3SVC;CRITICAL;notify-service-by-email;W3SVC: Stopped
+[1539017288] SERVICE ALERT: Dell7480-2252;W3SVC;CRITICAL;HARD;3;W3SVC: Stopped
+[1539017957] SERVICE ALERT: Dell7480-2252;Memory Usage;WARNING;SOFT;1;Memory usage: total:19212.55 MB - used: 15416.21 MB (80%) - free: 3796.35 MB (20%)
+[1539018077] SERVICE ALERT: Dell7480-2252;Memory Usage;OK;HARD;1;Memory usage: total:19212.55 MB - used: 13559.24 MB (71%) - free: 5653.31 MB (29%)
+[1539018407] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Dell7480-2252;W3SVC;1539018406
+[1539018407] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;W3SVC;OK;notify-service-by-email;W3SVC: Started
+[1539018407] SERVICE ALERT: Dell7480-2252;W3SVC;OK;HARD;1;W3SVC: Started
+[1539020514] Auto-save of retention data completed successfully.

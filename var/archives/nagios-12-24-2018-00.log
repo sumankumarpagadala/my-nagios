@@ -1,0 +1,1670 @@
+[1539023400] LOG ROTATION: DAILY
+[1539023400] LOG VERSION: 2.0
+[1539023400] CURRENT HOST STATE: Dell7480-2252;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.96 ms
+[1539023400] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.10 ms
+[1539023400] CURRENT SERVICE STATE: Dell7480-2252;C:\ Drive Space;OK;HARD;1;C:\ - total: 275.36 Gb - used: 108.60 Gb (39%) - free 166.76 Gb (61%)
+[1539023400] CURRENT SERVICE STATE: Dell7480-2252;CPU Load;OK;HARD;1;CPU Load 11% (5 min average)
+[1539023400] CURRENT SERVICE STATE: Dell7480-2252;D:\ Drive Space;OK;HARD;1;D:\ - total: 200.00 Gb - used: 56.78 Gb (28%) - free 143.22 Gb (72%)
+[1539023400] CURRENT SERVICE STATE: Dell7480-2252;Memory Usage;OK;HARD;1;Memory usage: total:19212.55 MB - used: 13534.23 MB (70%) - free: 5678.32 MB (30%)
+[1539023400] CURRENT SERVICE STATE: Dell7480-2252;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.2.35 2018-01-28
+[1539023400] CURRENT SERVICE STATE: Dell7480-2252;Uptime;OK;HARD;1;System Uptime - 4 day(s) 21 hour(s) 21 minute(s)
+[1539023400] CURRENT SERVICE STATE: Dell7480-2252;W3SVC;OK;HARD;1;W3SVC: Started
+[1539023400] CURRENT SERVICE STATE: Dell7480-2252;nscp;OK;HARD;1;nscp.exe: Running
+[1539023400] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.04, 0.03, 0.05
+[1539023400] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1539023400] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 269 bytes in 0.001 second response time
+[1539023400] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.12 ms
+[1539023400] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 33155 MB (87.56% inode=99%):
+[1539023400] CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1539023400] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (2047 MB out of 2047 MB)
+[1539023400] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 50 processes with STATE = RSZDT
+[1539023872] EXTERNAL COMMAND: RESTART_PROCESS;1539023872
+[1539023872] PROGRAM_RESTART event encountered, restarting...
+[1539023872] Nagios 4.4.2 starting... (PID=16045)
+[1539023872] Local time is Tue Oct 09 00:07:52 IST 2018
+[1539023872] LOG VERSION: 2.0
+[1539023872] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1539023872] qh: core query handler registered
+[1539023872] qh: echo service query handler registered
+[1539023872] qh: help for the query handler registered
+[1539023872] wproc: Successfully registered manager as @wproc with query handler
+[1539023872] wproc: Registry request: name=Core Worker 21492;pid=21492
+[1539023872] wproc: Registry request: name=Core Worker 21493;pid=21493
+[1539023872] wproc: Registry request: name=Core Worker 21494;pid=21494
+[1539023872] wproc: Registry request: name=Core Worker 21495;pid=21495
+[1539027472] Auto-save of retention data completed successfully.
+[1539031072] Auto-save of retention data completed successfully.
+[1539034672] Auto-save of retention data completed successfully.
+[1539036597] Caught SIGTERM, shutting down...
+[1539036597] Successfully shutdown... (PID=16045)
+[1540632899] Nagios 4.4.2 starting... (PID=1068)
+[1540632899] Local time is Sat Oct 27 15:04:59 IST 2018
+[1540632899] LOG VERSION: 2.0
+[1540632899] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1540632899] qh: core query handler registered
+[1540632899] qh: echo service query handler registered
+[1540632899] qh: help for the query handler registered
+[1540632899] wproc: Successfully registered manager as @wproc with query handler
+[1540632899] wproc: Registry request: name=Core Worker 1072;pid=1072
+[1540632899] wproc: Registry request: name=Core Worker 1073;pid=1073
+[1540632899] wproc: Registry request: name=Core Worker 1071;pid=1071
+[1540632899] wproc: Registry request: name=Core Worker 1070;pid=1070
+[1540632899] Successfully launched command file worker with pid 1077
+[1540632899] HOST ALERT: Dell7480-2252;DOWN;SOFT;1;CRITICAL - Network Unreachable (192.168.140.159)
+[1540632955] SERVICE ALERT: Dell7480-2252;C:\ Drive Space;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633011] SERVICE ALERT: Dell7480-2252;CPU Load;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633067] SERVICE ALERT: Dell7480-2252;D:\ Drive Space;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633075] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;C:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633124] SERVICE ALERT: Dell7480-2252;Memory Usage;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633131] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;CPU Load;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633180] SERVICE ALERT: Dell7480-2252;NSClient++ Version;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633187] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;D:\ Drive Space;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633236] SERVICE ALERT: Dell7480-2252;Uptime;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633244] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Memory Usage;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633292] SERVICE ALERT: Dell7480-2252;W3SVC;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633300] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;NSClient++ Version;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633349] SERVICE ALERT: Dell7480-2252;nscp;CRITICAL;HARD;1;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633356] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;Uptime;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633412] SERVICE NOTIFICATION: nagiosadmin;Dell7480-2252;W3SVC;CRITICAL;notify-service-by-email;connect to address 192.168.140.159 and port 12489: Network is unreachable
+[1540633439] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1540633439] HOST ALERT: Dell7480-2252;DOWN;HARD;10;CRITICAL - Network Unreachable (192.168.140.159)
+[1540634186] Caught SIGTERM, shutting down...
+[1540634186] Successfully shutdown... (PID=1068)
+[1540795027] Nagios 4.4.2 starting... (PID=1065)
+[1540795027] Local time is Mon Oct 29 12:07:07 IST 2018
+[1540795027] LOG VERSION: 2.0
+[1540795027] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1540795027] qh: core query handler registered
+[1540795027] qh: echo service query handler registered
+[1540795027] qh: help for the query handler registered
+[1540795027] wproc: Successfully registered manager as @wproc with query handler
+[1540795027] wproc: Registry request: name=Core Worker 1067;pid=1067
+[1540795027] wproc: Registry request: name=Core Worker 1068;pid=1068
+[1540795027] wproc: Registry request: name=Core Worker 1069;pid=1069
+[1540795027] wproc: Registry request: name=Core Worker 1070;pid=1070
+[1540795027] Successfully launched command file worker with pid 1075
+[1540795027] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1540796827] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1540797844] Caught SIGTERM, shutting down...
+[1540797844] Successfully shutdown... (PID=1065)
+[1545557311] Nagios 4.4.2 starting... (PID=1071)
+[1545557311] Local time is Sun Dec 23 14:58:31 IST 2018
+[1545557311] LOG VERSION: 2.0
+[1545557311] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545557311] qh: core query handler registered
+[1545557311] qh: echo service query handler registered
+[1545557311] qh: help for the query handler registered
+[1545557311] wproc: Successfully registered manager as @wproc with query handler
+[1545557311] wproc: Registry request: name=Core Worker 1076;pid=1076
+[1545557311] wproc: Registry request: name=Core Worker 1075;pid=1075
+[1545557311] wproc: Registry request: name=Core Worker 1074;pid=1074
+[1545557311] wproc: Registry request: name=Core Worker 1073;pid=1073
+[1545557311] Successfully launched command file worker with pid 1078
+[1545557311] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1545559111] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1545560911] Auto-save of retention data completed successfully.
+[1545560911] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1545562711] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1545564511] Auto-save of retention data completed successfully.
+[1545564511] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1545565732] Caught SIGTERM, shutting down...
+[1545565732] Successfully shutdown... (PID=1071)
+[1545567103] Nagios 4.4.2 starting... (PID=1060)
+[1545567103] Local time is Sun Dec 23 17:41:43 IST 2018
+[1545567103] LOG VERSION: 2.0
+[1545567103] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545567103] qh: core query handler registered
+[1545567103] qh: echo service query handler registered
+[1545567103] qh: help for the query handler registered
+[1545567103] wproc: Successfully registered manager as @wproc with query handler
+[1545567103] wproc: Registry request: name=Core Worker 1062;pid=1062
+[1545567103] wproc: Registry request: name=Core Worker 1063;pid=1063
+[1545567103] wproc: Registry request: name=Core Worker 1065;pid=1065
+[1545567103] wproc: Registry request: name=Core Worker 1064;pid=1064
+[1545567103] Successfully launched command file worker with pid 1072
+[1545567103] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;CRITICAL - Network Unreachable (192.168.140.159)
+[1545567253] wproc: Core Worker 1065: job 2 (pid=2731) timed out. Killing it
+[1545567253] wproc: CHECK job 2 from worker Core Worker 1065 timed out after 30.02s
+[1545567253] wproc:   host=Dell7480-2252; service=(null);
+[1545567253] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545567253] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545567253] wproc: Core Worker 1065: job 2 (pid=2731): Dormant child reaped
+[1545567313] wproc: Core Worker 1063: job 3 (pid=2916) timed out. Killing it
+[1545567313] wproc: CHECK job 3 from worker Core Worker 1063 timed out after 30.01s
+[1545567313] wproc:   host=Dell7480-2252; service=(null);
+[1545567313] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545567313] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545567313] wproc: Core Worker 1063: job 3 (pid=2916): Dormant child reaped
+[1545567373] wproc: Core Worker 1062: job 4 (pid=3073) timed out. Killing it
+[1545567373] wproc: CHECK job 4 from worker Core Worker 1062 timed out after 30.04s
+[1545567373] wproc:   host=Dell7480-2252; service=(null);
+[1545567373] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545567373] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545567373] wproc: Core Worker 1062: job 4 (pid=3073): Dormant child reaped
+[1545567433] wproc: Core Worker 1062: job 5 (pid=3231) timed out. Killing it
+[1545567433] wproc: CHECK job 5 from worker Core Worker 1062 timed out after 30.03s
+[1545567433] wproc:   host=Dell7480-2252; service=(null);
+[1545567433] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545567433] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545567433] wproc: Core Worker 1062: job 5 (pid=3231): Dormant child reaped
+[1545567493] wproc: Core Worker 1064: job 5 (pid=3397) timed out. Killing it
+[1545567493] wproc: CHECK job 5 from worker Core Worker 1064 timed out after 30.01s
+[1545567493] wproc:   host=Dell7480-2252; service=(null);
+[1545567493] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545567493] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545567493] wproc: Core Worker 1064: job 5 (pid=3397): Dormant child reaped
+[1545567553] wproc: Core Worker 1063: job 7 (pid=3563) timed out. Killing it
+[1545567553] wproc: CHECK job 7 from worker Core Worker 1063 timed out after 30.01s
+[1545567553] wproc:   host=Dell7480-2252; service=(null);
+[1545567553] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545567553] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545567553] wproc: Core Worker 1063: job 7 (pid=3563): Dormant child reaped
+[1545567613] wproc: Core Worker 1062: job 8 (pid=3721) timed out. Killing it
+[1545567613] wproc: CHECK job 8 from worker Core Worker 1062 timed out after 30.01s
+[1545567613] wproc:   host=Dell7480-2252; service=(null);
+[1545567613] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545567613] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545567613] wproc: Core Worker 1062: job 8 (pid=3721): Dormant child reaped
+[1545568054] Caught SIGTERM, shutting down...
+[1545568054] Successfully shutdown... (PID=1060)
+[1545568079] Nagios 4.4.2 starting... (PID=1073)
+[1545568079] Local time is Sun Dec 23 17:57:59 IST 2018
+[1545568079] LOG VERSION: 2.0
+[1545568079] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545568079] qh: core query handler registered
+[1545568079] qh: echo service query handler registered
+[1545568079] qh: help for the query handler registered
+[1545568079] wproc: Successfully registered manager as @wproc with query handler
+[1545568079] wproc: Registry request: name=Core Worker 1080;pid=1080
+[1545568079] wproc: Registry request: name=Core Worker 1081;pid=1081
+[1545568079] wproc: Registry request: name=Core Worker 1078;pid=1078
+[1545568079] wproc: Registry request: name=Core Worker 1079;pid=1079
+[1545568079] Successfully launched command file worker with pid 1082
+[1545568289] wproc: Core Worker 1080: job 3 (pid=2782) timed out. Killing it
+[1545568289] wproc: CHECK job 3 from worker Core Worker 1080 timed out after 30.01s
+[1545568289] wproc:   host=Dell7480-2252; service=(null);
+[1545568289] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568289] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545568289] wproc: Core Worker 1080: job 3 (pid=2782): Dormant child reaped
+[1545568349] wproc: Core Worker 1078: job 3 (pid=2949) timed out. Killing it
+[1545568349] wproc: CHECK job 3 from worker Core Worker 1078 timed out after 30.01s
+[1545568349] wproc:   host=Dell7480-2252; service=(null);
+[1545568349] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568349] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545568349] wproc: Core Worker 1078: job 3 (pid=2949): Dormant child reaped
+[1545568409] wproc: Core Worker 1081: job 4 (pid=3118) timed out. Killing it
+[1545568409] wproc: CHECK job 4 from worker Core Worker 1081 timed out after 30.02s
+[1545568409] wproc:   host=Dell7480-2252; service=(null);
+[1545568409] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568409] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545568409] wproc: Core Worker 1081: job 4 (pid=3118): Dormant child reaped
+[1545568469] wproc: Core Worker 1078: job 5 (pid=3271) timed out. Killing it
+[1545568469] wproc: CHECK job 5 from worker Core Worker 1078 timed out after 30.02s
+[1545568469] wproc:   host=Dell7480-2252; service=(null);
+[1545568469] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568469] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545568469] wproc: Core Worker 1078: job 5 (pid=3271): Dormant child reaped
+[1545568529] wproc: Core Worker 1079: job 6 (pid=3456) timed out. Killing it
+[1545568529] wproc: CHECK job 6 from worker Core Worker 1079 timed out after 30.02s
+[1545568529] wproc:   host=Dell7480-2252; service=(null);
+[1545568529] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568529] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545568529] wproc: Core Worker 1079: job 6 (pid=3456): Dormant child reaped
+[1545568589] wproc: Core Worker 1078: job 7 (pid=3614) timed out. Killing it
+[1545568589] wproc: CHECK job 7 from worker Core Worker 1078 timed out after 30.02s
+[1545568589] wproc:   host=Dell7480-2252; service=(null);
+[1545568589] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568589] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545568589] wproc: Core Worker 1078: job 7 (pid=3614): Dormant child reaped
+[1545568649] wproc: Core Worker 1081: job 8 (pid=3771) timed out. Killing it
+[1545568649] wproc: CHECK job 8 from worker Core Worker 1081 timed out after 30.01s
+[1545568649] wproc:   host=Dell7480-2252; service=(null);
+[1545568649] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568649] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545568649] wproc: Core Worker 1081: job 8 (pid=3771): Dormant child reaped
+[1545568709] wproc: Core Worker 1080: job 9 (pid=3904) timed out. Killing it
+[1545568709] wproc: CHECK job 9 from worker Core Worker 1080 timed out after 30.01s
+[1545568709] wproc:   host=Dell7480-2252; service=(null);
+[1545568709] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568709] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545568709] wproc: Core Worker 1080: job 9 (pid=3904): Dormant child reaped
+[1545568769] wproc: Core Worker 1081: job 10 (pid=4069) timed out. Killing it
+[1545568769] wproc: CHECK job 10 from worker Core Worker 1081 timed out after 30.01s
+[1545568769] wproc:   host=Dell7480-2252; service=(null);
+[1545568769] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568769] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545568769] wproc: Core Worker 1081: job 10 (pid=4069): Dormant child reaped
+[1545568829] wproc: Core Worker 1078: job 11 (pid=4227) timed out. Killing it
+[1545568829] wproc: CHECK job 11 from worker Core Worker 1078 timed out after 30.01s
+[1545568829] wproc:   host=Dell7480-2252; service=(null);
+[1545568829] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568829] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545568829] wproc: Core Worker 1078: job 11 (pid=4227): Dormant child reaped
+[1545568889] wproc: Core Worker 1080: job 12 (pid=4389) timed out. Killing it
+[1545568889] wproc: CHECK job 12 from worker Core Worker 1080 timed out after 30.01s
+[1545568889] wproc:   host=Dell7480-2252; service=(null);
+[1545568889] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568889] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545568889] wproc: Core Worker 1080: job 12 (pid=4389): Dormant child reaped
+[1545568949] wproc: Core Worker 1078: job 12 (pid=4982) timed out. Killing it
+[1545568949] wproc: CHECK job 12 from worker Core Worker 1078 timed out after 30.01s
+[1545568949] wproc:   host=Dell7480-2252; service=(null);
+[1545568949] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545568949] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545568949] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1545568949] wproc: Core Worker 1078: job 12 (pid=4982): Dormant child reaped
+[1545569009] wproc: Core Worker 1078: job 13 (pid=5228) timed out. Killing it
+[1545569009] wproc: CHECK job 13 from worker Core Worker 1078 timed out after 30.05s
+[1545569009] wproc:   host=Dell7480-2252; service=(null);
+[1545569009] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569009] Warning: Check of host 'Dell7480-2252' timed out after 30.05 seconds
+[1545569009] wproc: Core Worker 1078: job 13 (pid=5228): Dormant child reaped
+[1545569069] wproc: Core Worker 1079: job 14 (pid=5436) timed out. Killing it
+[1545569069] wproc: CHECK job 14 from worker Core Worker 1079 timed out after 30.03s
+[1545569069] wproc:   host=Dell7480-2252; service=(null);
+[1545569069] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569069] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545569070] wproc: Core Worker 1079: job 14 (pid=5436): Dormant child reaped
+[1545569129] wproc: Core Worker 1080: job 16 (pid=5609) timed out. Killing it
+[1545569129] wproc: CHECK job 16 from worker Core Worker 1080 timed out after 30.04s
+[1545569129] wproc:   host=Dell7480-2252; service=(null);
+[1545569129] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569129] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545569130] wproc: Core Worker 1080: job 16 (pid=5609): Dormant child reaped
+[1545569189] wproc: Core Worker 1079: job 16 (pid=5838) timed out. Killing it
+[1545569189] wproc: CHECK job 16 from worker Core Worker 1079 timed out after 30.02s
+[1545569189] wproc:   host=Dell7480-2252; service=(null);
+[1545569189] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569189] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545569190] wproc: Core Worker 1079: job 16 (pid=5838): Dormant child reaped
+[1545569249] wproc: Core Worker 1078: job 17 (pid=6058) timed out. Killing it
+[1545569249] wproc: CHECK job 17 from worker Core Worker 1078 timed out after 30.06s
+[1545569249] wproc:   host=Dell7480-2252; service=(null);
+[1545569249] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569249] Warning: Check of host 'Dell7480-2252' timed out after 30.06 seconds
+[1545569250] wproc: Core Worker 1078: job 17 (pid=6058): Dormant child reaped
+[1545569309] wproc: Core Worker 1081: job 18 (pid=6237) timed out. Killing it
+[1545569310] wproc: CHECK job 18 from worker Core Worker 1081 timed out after 30.03s
+[1545569310] wproc:   host=Dell7480-2252; service=(null);
+[1545569310] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569310] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545569310] wproc: Core Worker 1081: job 18 (pid=6237): Dormant child reaped
+[1545569369] wproc: Core Worker 1078: job 19 (pid=6438) timed out. Killing it
+[1545569369] wproc: CHECK job 19 from worker Core Worker 1078 timed out after 30.03s
+[1545569369] wproc:   host=Dell7480-2252; service=(null);
+[1545569369] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569369] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545569369] wproc: Core Worker 1078: job 19 (pid=6438): Dormant child reaped
+[1545569429] wproc: Core Worker 1078: job 20 (pid=6630) timed out. Killing it
+[1545569429] wproc: CHECK job 20 from worker Core Worker 1078 timed out after 30.05s
+[1545569429] wproc:   host=Dell7480-2252; service=(null);
+[1545569429] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569429] Warning: Check of host 'Dell7480-2252' timed out after 30.05 seconds
+[1545569429] wproc: Core Worker 1078: job 20 (pid=6630): Dormant child reaped
+[1545569489] wproc: Core Worker 1081: job 21 (pid=6851) timed out. Killing it
+[1545569489] wproc: CHECK job 21 from worker Core Worker 1081 timed out after 30.02s
+[1545569489] wproc:   host=Dell7480-2252; service=(null);
+[1545569489] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569489] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545569489] wproc: Core Worker 1081: job 21 (pid=6851): Dormant child reaped
+[1545569549] wproc: Core Worker 1079: job 21 (pid=7021) timed out. Killing it
+[1545569549] wproc: CHECK job 21 from worker Core Worker 1079 timed out after 30.03s
+[1545569549] wproc:   host=Dell7480-2252; service=(null);
+[1545569549] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569549] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545569549] wproc: Core Worker 1079: job 21 (pid=7021): Dormant child reaped
+[1545569609] wproc: Core Worker 1078: job 22 (pid=7351) timed out. Killing it
+[1545569609] wproc: CHECK job 22 from worker Core Worker 1078 timed out after 30.04s
+[1545569609] wproc:   host=Dell7480-2252; service=(null);
+[1545569609] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569609] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545569609] wproc: Core Worker 1078: job 22 (pid=7351): Dormant child reaped
+[1545569669] wproc: Core Worker 1079: job 23 (pid=7648) timed out. Killing it
+[1545569669] wproc: CHECK job 23 from worker Core Worker 1079 timed out after 30.04s
+[1545569669] wproc:   host=Dell7480-2252; service=(null);
+[1545569669] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569669] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545569669] wproc: Core Worker 1079: job 23 (pid=7648): Dormant child reaped
+[1545569729] wproc: Core Worker 1079: job 24 (pid=7905) timed out. Killing it
+[1545569729] wproc: CHECK job 24 from worker Core Worker 1079 timed out after 30.04s
+[1545569729] wproc:   host=Dell7480-2252; service=(null);
+[1545569729] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569729] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545569729] wproc: Core Worker 1079: job 24 (pid=7905): Dormant child reaped
+[1545569789] wproc: Core Worker 1079: job 25 (pid=8520) timed out. Killing it
+[1545569789] wproc: CHECK job 25 from worker Core Worker 1079 timed out after 30.04s
+[1545569789] wproc:   host=Dell7480-2252; service=(null);
+[1545569789] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569789] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545569789] wproc: Core Worker 1079: job 25 (pid=8520): Dormant child reaped
+[1545569849] wproc: Core Worker 1078: job 26 (pid=8703) timed out. Killing it
+[1545569849] wproc: CHECK job 26 from worker Core Worker 1078 timed out after 30.03s
+[1545569849] wproc:   host=Dell7480-2252; service=(null);
+[1545569849] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569849] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545569849] wproc: Core Worker 1078: job 26 (pid=8703): Dormant child reaped
+[1545569909] wproc: Core Worker 1081: job 27 (pid=8854) timed out. Killing it
+[1545569909] wproc: CHECK job 27 from worker Core Worker 1081 timed out after 30.04s
+[1545569909] wproc:   host=Dell7480-2252; service=(null);
+[1545569909] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569909] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545569909] wproc: Core Worker 1081: job 27 (pid=8854): Dormant child reaped
+[1545569969] wproc: Core Worker 1078: job 28 (pid=9041) timed out. Killing it
+[1545569969] wproc: CHECK job 28 from worker Core Worker 1078 timed out after 30.03s
+[1545569969] wproc:   host=Dell7480-2252; service=(null);
+[1545569969] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545569969] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545569969] wproc: Core Worker 1078: job 28 (pid=9041): Dormant child reaped
+[1545570029] wproc: Core Worker 1079: job 29 (pid=9234) timed out. Killing it
+[1545570029] wproc: CHECK job 29 from worker Core Worker 1079 timed out after 30.03s
+[1545570029] wproc:   host=Dell7480-2252; service=(null);
+[1545570029] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545570029] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545570029] wproc: Core Worker 1079: job 29 (pid=9234): Dormant child reaped
+[1545570035] Caught SIGTERM, shutting down...
+[1545570035] Successfully shutdown... (PID=1073)
+[1545570064] Nagios 4.4.2 starting... (PID=1071)
+[1545570064] Local time is Sun Dec 23 18:31:04 IST 2018
+[1545570064] LOG VERSION: 2.0
+[1545570064] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545570064] qh: core query handler registered
+[1545570064] qh: echo service query handler registered
+[1545570064] qh: help for the query handler registered
+[1545570064] wproc: Successfully registered manager as @wproc with query handler
+[1545570064] wproc: Registry request: name=Core Worker 1075;pid=1075
+[1545570064] wproc: Registry request: name=Core Worker 1076;pid=1076
+[1545570064] wproc: Registry request: name=Core Worker 1074;pid=1074
+[1545570064] wproc: Registry request: name=Core Worker 1073;pid=1073
+[1545570064] Successfully launched command file worker with pid 1080
+[1545570304] Lockfile '/usr/local/nagios/var/nagios.lock' contains PID of running process (1071)
+[1545570726] Nagios 4.4.2 starting... (PID=1125)
+[1545570726] Local time is Sun Dec 23 18:42:06 IST 2018
+[1545570726] LOG VERSION: 2.0
+[1545570726] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545570726] qh: core query handler registered
+[1545570726] qh: echo service query handler registered
+[1545570726] qh: help for the query handler registered
+[1545570726] wproc: Successfully registered manager as @wproc with query handler
+[1545570726] wproc: Registry request: name=Core Worker 1129;pid=1129
+[1545570726] wproc: Registry request: name=Core Worker 1130;pid=1130
+[1545570726] wproc: Registry request: name=Core Worker 1132;pid=1132
+[1545570726] wproc: Registry request: name=Core Worker 1131;pid=1131
+[1545570727] Successfully launched command file worker with pid 1222
+[1545570760] wproc: Core Worker 1129: job 0 (pid=1223) timed out. Killing it
+[1545570760] wproc: CHECK job 0 from worker Core Worker 1129 timed out after 33.04s
+[1545570760] wproc:   host=Dell7480-2252; service=(null);
+[1545570760] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545570760] Warning: Check of host 'Dell7480-2252' timed out after 33.04 seconds
+[1545570760] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;(Host check timed out after 33.04 seconds)
+[1545570760] wproc: Core Worker 1129: job 0 (pid=1223): Dormant child reaped
+[1545570817] wproc: Core Worker 1129: job 1 (pid=2568) timed out. Killing it
+[1545570817] wproc: CHECK job 1 from worker Core Worker 1129 timed out after 30.01s
+[1545570817] wproc:   host=Dell7480-2252; service=(null);
+[1545570817] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545570817] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545570817] wproc: Core Worker 1129: job 1 (pid=2568): Dormant child reaped
+[1545570877] wproc: Core Worker 1132: job 2 (pid=2919) timed out. Killing it
+[1545570877] wproc: CHECK job 2 from worker Core Worker 1132 timed out after 30.01s
+[1545570877] wproc:   host=Dell7480-2252; service=(null);
+[1545570877] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545570877] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545570877] wproc: Core Worker 1132: job 2 (pid=2919): Dormant child reaped
+[1545570937] wproc: Core Worker 1130: job 3 (pid=3109) timed out. Killing it
+[1545570937] wproc: CHECK job 3 from worker Core Worker 1130 timed out after 30.02s
+[1545570937] wproc:   host=Dell7480-2252; service=(null);
+[1545570937] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545570937] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545570937] wproc: Core Worker 1130: job 3 (pid=3109): Dormant child reaped
+[1545570997] wproc: Core Worker 1129: job 4 (pid=3266) timed out. Killing it
+[1545570997] wproc: CHECK job 4 from worker Core Worker 1129 timed out after 30.01s
+[1545570997] wproc:   host=Dell7480-2252; service=(null);
+[1545570997] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545570997] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545570997] wproc: Core Worker 1129: job 4 (pid=3266): Dormant child reaped
+[1545571057] wproc: Core Worker 1129: job 5 (pid=3410) timed out. Killing it
+[1545571057] wproc: CHECK job 5 from worker Core Worker 1129 timed out after 30.04s
+[1545571057] wproc:   host=Dell7480-2252; service=(null);
+[1545571057] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571057] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545571057] wproc: Core Worker 1129: job 5 (pid=3410): Dormant child reaped
+[1545571117] wproc: Core Worker 1131: job 5 (pid=3571) timed out. Killing it
+[1545571117] wproc: CHECK job 5 from worker Core Worker 1131 timed out after 30.01s
+[1545571117] wproc:   host=Dell7480-2252; service=(null);
+[1545571117] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571117] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545571117] wproc: Core Worker 1131: job 5 (pid=3571): Dormant child reaped
+[1545571177] wproc: Core Worker 1130: job 7 (pid=3735) timed out. Killing it
+[1545571177] wproc: CHECK job 7 from worker Core Worker 1130 timed out after 30.02s
+[1545571177] wproc:   host=Dell7480-2252; service=(null);
+[1545571177] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571177] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545571177] wproc: Core Worker 1130: job 7 (pid=3735): Dormant child reaped
+[1545571237] wproc: Core Worker 1129: job 8 (pid=3883) timed out. Killing it
+[1545571237] wproc: CHECK job 8 from worker Core Worker 1129 timed out after 30.04s
+[1545571237] wproc:   host=Dell7480-2252; service=(null);
+[1545571237] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571237] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545571237] wproc: Core Worker 1129: job 8 (pid=3883): Dormant child reaped
+[1545571297] wproc: Core Worker 1132: job 8 (pid=4038) timed out. Killing it
+[1545571297] wproc: CHECK job 8 from worker Core Worker 1132 timed out after 30.03s
+[1545571297] wproc:   host=Dell7480-2252; service=(null);
+[1545571297] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571297] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545571297] wproc: Core Worker 1132: job 8 (pid=4038): Dormant child reaped
+[1545571357] wproc: Core Worker 1130: job 9 (pid=4173) timed out. Killing it
+[1545571357] wproc: CHECK job 9 from worker Core Worker 1130 timed out after 30.01s
+[1545571357] wproc:   host=Dell7480-2252; service=(null);
+[1545571357] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571357] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545571357] wproc: Core Worker 1130: job 9 (pid=4173): Dormant child reaped
+[1545571417] wproc: Core Worker 1129: job 10 (pid=4334) timed out. Killing it
+[1545571417] wproc: CHECK job 10 from worker Core Worker 1129 timed out after 30.01s
+[1545571417] wproc:   host=Dell7480-2252; service=(null);
+[1545571417] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571417] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545571417] wproc: Core Worker 1129: job 10 (pid=4334): Dormant child reaped
+[1545571477] wproc: Core Worker 1132: job 11 (pid=4497) timed out. Killing it
+[1545571477] wproc: CHECK job 11 from worker Core Worker 1132 timed out after 30.01s
+[1545571477] wproc:   host=Dell7480-2252; service=(null);
+[1545571477] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571477] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545571477] wproc: Core Worker 1132: job 11 (pid=4497): Dormant child reaped
+[1545571537] wproc: Core Worker 1130: job 12 (pid=4631) timed out. Killing it
+[1545571537] wproc: CHECK job 12 from worker Core Worker 1130 timed out after 30.01s
+[1545571537] wproc:   host=Dell7480-2252; service=(null);
+[1545571537] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571537] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545571537] wproc: Core Worker 1130: job 12 (pid=4631): Dormant child reaped
+[1545571597] wproc: Core Worker 1129: job 13 (pid=4788) timed out. Killing it
+[1545571597] wproc: CHECK job 13 from worker Core Worker 1129 timed out after 30.03s
+[1545571597] wproc:   host=Dell7480-2252; service=(null);
+[1545571597] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571597] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545571597] wproc: Core Worker 1129: job 13 (pid=4788): Dormant child reaped
+[1545571657] wproc: Core Worker 1129: job 14 (pid=4947) timed out. Killing it
+[1545571657] wproc: CHECK job 14 from worker Core Worker 1129 timed out after 30.02s
+[1545571657] wproc:   host=Dell7480-2252; service=(null);
+[1545571657] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571657] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545571657] wproc: Core Worker 1129: job 14 (pid=4947): Dormant child reaped
+[1545571717] wproc: Core Worker 1131: job 14 (pid=5082) timed out. Killing it
+[1545571717] wproc: CHECK job 14 from worker Core Worker 1131 timed out after 30.01s
+[1545571717] wproc:   host=Dell7480-2252; service=(null);
+[1545571717] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571717] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545571717] wproc: Core Worker 1131: job 14 (pid=5082): Dormant child reaped
+[1545571777] wproc: Core Worker 1130: job 16 (pid=5246) timed out. Killing it
+[1545571777] wproc: CHECK job 16 from worker Core Worker 1130 timed out after 30.01s
+[1545571777] wproc:   host=Dell7480-2252; service=(null);
+[1545571777] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571777] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545571777] wproc: Core Worker 1130: job 16 (pid=5246): Dormant child reaped
+[1545571837] wproc: Core Worker 1129: job 17 (pid=5383) timed out. Killing it
+[1545571837] wproc: CHECK job 17 from worker Core Worker 1129 timed out after 30.02s
+[1545571837] wproc:   host=Dell7480-2252; service=(null);
+[1545571837] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571837] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545571837] wproc: Core Worker 1129: job 17 (pid=5383): Dormant child reaped
+[1545571897] wproc: Core Worker 1132: job 17 (pid=5551) timed out. Killing it
+[1545571897] wproc: CHECK job 17 from worker Core Worker 1132 timed out after 30.03s
+[1545571897] wproc:   host=Dell7480-2252; service=(null);
+[1545571897] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545571897] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545571897] wproc: Core Worker 1132: job 17 (pid=5551): Dormant child reaped
+[1545571945] Caught SIGTERM, shutting down...
+[1545571945] Successfully shutdown... (PID=1125)
+[1545571969] Nagios 4.4.2 starting... (PID=1129)
+[1545571969] Local time is Sun Dec 23 19:02:49 IST 2018
+[1545571969] LOG VERSION: 2.0
+[1545571969] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545571969] qh: core query handler registered
+[1545571969] qh: echo service query handler registered
+[1545571969] qh: help for the query handler registered
+[1545571969] wproc: Successfully registered manager as @wproc with query handler
+[1545571969] wproc: Registry request: name=Core Worker 1134;pid=1134
+[1545571969] wproc: Registry request: name=Core Worker 1135;pid=1135
+[1545571969] wproc: Registry request: name=Core Worker 1133;pid=1133
+[1545571969] wproc: Registry request: name=Core Worker 1132;pid=1132
+[1545571969] Successfully launched command file worker with pid 1141
+[1545572002] wproc: Core Worker 1134: job 0 (pid=1142) timed out. Killing it
+[1545572002] wproc: CHECK job 0 from worker Core Worker 1134 timed out after 33.03s
+[1545572002] wproc:   host=Dell7480-2252; service=(null);
+[1545572002] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572002] Warning: Check of host 'Dell7480-2252' timed out after 33.03 seconds
+[1545572002] wproc: Core Worker 1134: job 0 (pid=1142): Dormant child reaped
+[1545572025] Caught SIGTERM, shutting down...
+[1545572025] Successfully shutdown... (PID=1129)
+[1545572048] Nagios 4.4.2 starting... (PID=1121)
+[1545572048] Local time is Sun Dec 23 19:04:08 IST 2018
+[1545572048] LOG VERSION: 2.0
+[1545572048] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545572048] qh: core query handler registered
+[1545572048] qh: echo service query handler registered
+[1545572048] qh: help for the query handler registered
+[1545572048] wproc: Successfully registered manager as @wproc with query handler
+[1545572048] wproc: Registry request: name=Core Worker 1126;pid=1126
+[1545572048] wproc: Registry request: name=Core Worker 1125;pid=1125
+[1545572048] wproc: Registry request: name=Core Worker 1124;pid=1124
+[1545572048] wproc: Registry request: name=Core Worker 1123;pid=1123
+[1545572048] Successfully launched command file worker with pid 1127
+[1545572081] wproc: Core Worker 1126: job 0 (pid=1128) timed out. Killing it
+[1545572081] wproc: CHECK job 0 from worker Core Worker 1126 timed out after 33.03s
+[1545572081] wproc:   host=Dell7480-2252; service=(null);
+[1545572081] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572081] Warning: Check of host 'Dell7480-2252' timed out after 33.03 seconds
+[1545572081] wproc: Core Worker 1126: job 0 (pid=1128): Dormant child reaped
+[1545572138] wproc: Core Worker 1126: job 1 (pid=1865) timed out. Killing it
+[1545572138] wproc: CHECK job 1 from worker Core Worker 1126 timed out after 30.01s
+[1545572138] wproc:   host=Dell7480-2252; service=(null);
+[1545572138] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572138] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545572138] wproc: Core Worker 1126: job 1 (pid=1865): Dormant child reaped
+[1545572198] wproc: Core Worker 1125: job 2 (pid=2000) timed out. Killing it
+[1545572198] wproc: CHECK job 2 from worker Core Worker 1125 timed out after 30.02s
+[1545572198] wproc:   host=Dell7480-2252; service=(null);
+[1545572198] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572198] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545572198] wproc: Core Worker 1125: job 2 (pid=2000): Dormant child reaped
+[1545572258] wproc: Core Worker 1126: job 3 (pid=2158) timed out. Killing it
+[1545572258] wproc: CHECK job 3 from worker Core Worker 1126 timed out after 30.01s
+[1545572258] wproc:   host=Dell7480-2252; service=(null);
+[1545572258] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572258] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545572258] wproc: Core Worker 1126: job 3 (pid=2158): Dormant child reaped
+[1545572318] wproc: Core Worker 1124: job 3 (pid=2290) timed out. Killing it
+[1545572318] wproc: CHECK job 3 from worker Core Worker 1124 timed out after 30.01s
+[1545572318] wproc:   host=Dell7480-2252; service=(null);
+[1545572318] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572318] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545572318] wproc: Core Worker 1124: job 3 (pid=2290): Dormant child reaped
+[1545572378] wproc: Core Worker 1126: job 5 (pid=2453) timed out. Killing it
+[1545572378] wproc: CHECK job 5 from worker Core Worker 1126 timed out after 30.03s
+[1545572378] wproc:   host=Dell7480-2252; service=(null);
+[1545572378] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572378] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545572378] wproc: Core Worker 1126: job 5 (pid=2453): Dormant child reaped
+[1545572438] wproc: Core Worker 1123: job 5 (pid=2628) timed out. Killing it
+[1545572438] wproc: CHECK job 5 from worker Core Worker 1123 timed out after 30.01s
+[1545572438] wproc:   host=Dell7480-2252; service=(null);
+[1545572438] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572438] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545572438] wproc: Core Worker 1123: job 5 (pid=2628): Dormant child reaped
+[1545572498] wproc: Core Worker 1123: job 6 (pid=2773) timed out. Killing it
+[1545572498] wproc: CHECK job 6 from worker Core Worker 1123 timed out after 30.04s
+[1545572498] wproc:   host=Dell7480-2252; service=(null);
+[1545572498] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572498] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545572498] wproc: Core Worker 1123: job 6 (pid=2773): Dormant child reaped
+[1545572558] wproc: Core Worker 1125: job 7 (pid=2929) timed out. Killing it
+[1545572558] wproc: CHECK job 7 from worker Core Worker 1125 timed out after 30.01s
+[1545572558] wproc:   host=Dell7480-2252; service=(null);
+[1545572558] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572558] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545572558] wproc: Core Worker 1125: job 7 (pid=2929): Dormant child reaped
+[1545572592] HOST NOTIFICATION: nagiosadmin;Dell7480-2252;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1545572618] wproc: Core Worker 1123: job 7 (pid=3105) timed out. Killing it
+[1545572618] wproc: CHECK job 7 from worker Core Worker 1123 timed out after 30.02s
+[1545572618] wproc:   host=Dell7480-2252; service=(null);
+[1545572618] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572618] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545572618] wproc: Core Worker 1123: job 7 (pid=3105): Dormant child reaped
+[1545572678] wproc: Core Worker 1125: job 9 (pid=3251) timed out. Killing it
+[1545572678] wproc: CHECK job 9 from worker Core Worker 1125 timed out after 30.04s
+[1545572678] wproc:   host=Dell7480-2252; service=(null);
+[1545572678] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572678] Warning: Check of host 'Dell7480-2252' timed out after 30.04 seconds
+[1545572679] wproc: Core Worker 1125: job 9 (pid=3251): Dormant child reaped
+[1545572738] wproc: Core Worker 1125: job 10 (pid=3419) timed out. Killing it
+[1545572738] wproc: CHECK job 10 from worker Core Worker 1125 timed out after 30.02s
+[1545572738] wproc:   host=Dell7480-2252; service=(null);
+[1545572738] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572738] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545572739] wproc: Core Worker 1125: job 10 (pid=3419): Dormant child reaped
+[1545572798] wproc: Core Worker 1124: job 11 (pid=3588) timed out. Killing it
+[1545572798] wproc: CHECK job 11 from worker Core Worker 1124 timed out after 30.02s
+[1545572798] wproc:   host=Dell7480-2252; service=(null);
+[1545572798] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572798] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545572799] wproc: Core Worker 1124: job 11 (pid=3588): Dormant child reaped
+[1545572858] wproc: Core Worker 1125: job 12 (pid=3722) timed out. Killing it
+[1545572858] wproc: CHECK job 12 from worker Core Worker 1125 timed out after 30.01s
+[1545572858] wproc:   host=Dell7480-2252; service=(null);
+[1545572858] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572858] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545572859] wproc: Core Worker 1125: job 12 (pid=3722): Dormant child reaped
+[1545572918] wproc: Core Worker 1123: job 12 (pid=3878) timed out. Killing it
+[1545572918] wproc: CHECK job 12 from worker Core Worker 1123 timed out after 30.01s
+[1545572918] wproc:   host=Dell7480-2252; service=(null);
+[1545572918] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572918] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545572919] wproc: Core Worker 1123: job 12 (pid=3878): Dormant child reaped
+[1545572978] wproc: Core Worker 1125: job 14 (pid=4030) timed out. Killing it
+[1545572978] wproc: CHECK job 14 from worker Core Worker 1125 timed out after 30.03s
+[1545572978] wproc:   host=Dell7480-2252; service=(null);
+[1545572978] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545572978] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545572979] wproc: Core Worker 1125: job 14 (pid=4030): Dormant child reaped
+[1545573038] wproc: Core Worker 1126: job 15 (pid=4207) timed out. Killing it
+[1545573038] wproc: CHECK job 15 from worker Core Worker 1126 timed out after 30.01s
+[1545573038] wproc:   host=Dell7480-2252; service=(null);
+[1545573038] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573038] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545573039] wproc: Core Worker 1126: job 15 (pid=4207): Dormant child reaped
+[1545573098] wproc: Core Worker 1126: job 16 (pid=4371) timed out. Killing it
+[1545573098] wproc: CHECK job 16 from worker Core Worker 1126 timed out after 30.03s
+[1545573098] wproc:   host=Dell7480-2252; service=(null);
+[1545573098] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573098] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545573099] wproc: Core Worker 1126: job 16 (pid=4371): Dormant child reaped
+[1545573134] Caught SIGTERM, shutting down...
+[1545573134] Successfully shutdown... (PID=1121)
+[1545573135] Nagios 4.4.2 starting... (PID=4576)
+[1545573135] Local time is Sun Dec 23 19:22:15 IST 2018
+[1545573135] LOG VERSION: 2.0
+[1545573135] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545573135] qh: core query handler registered
+[1545573135] qh: echo service query handler registered
+[1545573135] qh: help for the query handler registered
+[1545573135] wproc: Successfully registered manager as @wproc with query handler
+[1545573135] wproc: Registry request: name=Core Worker 4581;pid=4581
+[1545573135] wproc: Registry request: name=Core Worker 4578;pid=4578
+[1545573135] wproc: Registry request: name=Core Worker 4579;pid=4579
+[1545573135] wproc: Registry request: name=Core Worker 4580;pid=4580
+[1545573135] Successfully launched command file worker with pid 4584
+[1545573165] wproc: Core Worker 4581: job 0 (pid=4585) timed out. Killing it
+[1545573165] wproc: CHECK job 0 from worker Core Worker 4581 timed out after 30.01s
+[1545573165] wproc:   host=Dell7480-2252; service=(null);
+[1545573165] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573165] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545573166] wproc: Core Worker 4581: job 0 (pid=4585): Dormant child reaped
+[1545573178] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;Dell7480-2252;1545573175
+[1545573208] wproc: Core Worker 4578: job 0 (pid=4692) timed out. Killing it
+[1545573208] wproc: CHECK job 0 from worker Core Worker 4578 timed out after 30.02s
+[1545573208] wproc:   host=Dell7480-2252; service=(null);
+[1545573208] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573208] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545573208] wproc: Core Worker 4578: job 0 (pid=4692): Dormant child reaped
+[1545573268] wproc: Core Worker 4580: job 1 (pid=4859) timed out. Killing it
+[1545573268] wproc: CHECK job 1 from worker Core Worker 4580 timed out after 30.02s
+[1545573268] wproc:   host=Dell7480-2252; service=(null);
+[1545573268] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573268] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545573268] wproc: Core Worker 4580: job 1 (pid=4859): Dormant child reaped
+[1545573328] wproc: Core Worker 4579: job 2 (pid=4992) timed out. Killing it
+[1545573328] wproc: CHECK job 2 from worker Core Worker 4579 timed out after 30.01s
+[1545573328] wproc:   host=Dell7480-2252; service=(null);
+[1545573328] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573328] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545573328] wproc: Core Worker 4579: job 2 (pid=4992): Dormant child reaped
+[1545573388] wproc: Core Worker 4579: job 3 (pid=5149) timed out. Killing it
+[1545573388] wproc: CHECK job 3 from worker Core Worker 4579 timed out after 30.03s
+[1545573388] wproc:   host=Dell7480-2252; service=(null);
+[1545573388] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573388] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545573388] wproc: Core Worker 4579: job 3 (pid=5149): Dormant child reaped
+[1545573448] wproc: Core Worker 4580: job 4 (pid=5310) timed out. Killing it
+[1545573448] wproc: CHECK job 4 from worker Core Worker 4580 timed out after 30.01s
+[1545573448] wproc:   host=Dell7480-2252; service=(null);
+[1545573448] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573448] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545573448] wproc: Core Worker 4580: job 4 (pid=5310): Dormant child reaped
+[1545573508] wproc: Core Worker 4578: job 5 (pid=5444) timed out. Killing it
+[1545573508] wproc: CHECK job 5 from worker Core Worker 4578 timed out after 30.01s
+[1545573508] wproc:   host=Dell7480-2252; service=(null);
+[1545573508] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573508] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545573508] wproc: Core Worker 4578: job 5 (pid=5444): Dormant child reaped
+[1545573568] wproc: Core Worker 4580: job 6 (pid=5616) timed out. Killing it
+[1545573568] wproc: CHECK job 6 from worker Core Worker 4580 timed out after 30.02s
+[1545573568] wproc:   host=Dell7480-2252; service=(null);
+[1545573568] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573568] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545573568] wproc: Core Worker 4580: job 6 (pid=5616): Dormant child reaped
+[1545573628] wproc: Core Worker 4579: job 7 (pid=5787) timed out. Killing it
+[1545573628] wproc: CHECK job 7 from worker Core Worker 4579 timed out after 30.01s
+[1545573628] wproc:   host=Dell7480-2252; service=(null);
+[1545573628] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573628] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545573628] wproc: Core Worker 4579: job 7 (pid=5787): Dormant child reaped
+[1545573688] wproc: Core Worker 4581: job 8 (pid=5933) timed out. Killing it
+[1545573688] wproc: CHECK job 8 from worker Core Worker 4581 timed out after 30.03s
+[1545573688] wproc:   host=Dell7480-2252; service=(null);
+[1545573688] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573688] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545573688] wproc: Core Worker 4581: job 8 (pid=5933): Dormant child reaped
+[1545573748] wproc: Core Worker 4581: job 9 (pid=6099) timed out. Killing it
+[1545573748] wproc: CHECK job 9 from worker Core Worker 4581 timed out after 30.02s
+[1545573748] wproc:   host=Dell7480-2252; service=(null);
+[1545573748] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573748] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545573748] wproc: Core Worker 4581: job 9 (pid=6099): Dormant child reaped
+[1545573808] wproc: Core Worker 4578: job 9 (pid=6263) timed out. Killing it
+[1545573808] wproc: CHECK job 9 from worker Core Worker 4578 timed out after 30.01s
+[1545573808] wproc:   host=Dell7480-2252; service=(null);
+[1545573808] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573808] Warning: Check of host 'Dell7480-2252' timed out after 30.01 seconds
+[1545573808] wproc: Core Worker 4578: job 9 (pid=6263): Dormant child reaped
+[1545573868] wproc: Core Worker 4580: job 10 (pid=6420) timed out. Killing it
+[1545573868] wproc: CHECK job 10 from worker Core Worker 4580 timed out after 30.02s
+[1545573868] wproc:   host=Dell7480-2252; service=(null);
+[1545573868] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573868] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545573868] wproc: Core Worker 4580: job 10 (pid=6420): Dormant child reaped
+[1545573928] wproc: Core Worker 4579: job 11 (pid=6586) timed out. Killing it
+[1545573928] wproc: CHECK job 11 from worker Core Worker 4579 timed out after 30.02s
+[1545573928] wproc:   host=Dell7480-2252; service=(null);
+[1545573928] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573928] Warning: Check of host 'Dell7480-2252' timed out after 30.02 seconds
+[1545573928] wproc: Core Worker 4579: job 11 (pid=6586): Dormant child reaped
+[1545573988] wproc: Core Worker 4579: job 12 (pid=6752) timed out. Killing it
+[1545573988] wproc: CHECK job 12 from worker Core Worker 4579 timed out after 30.03s
+[1545573988] wproc:   host=Dell7480-2252; service=(null);
+[1545573988] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545573988] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545573988] wproc: Core Worker 4579: job 12 (pid=6752): Dormant child reaped
+[1545574048] wproc: Core Worker 4580: job 13 (pid=6907) timed out. Killing it
+[1545574048] wproc: CHECK job 13 from worker Core Worker 4580 timed out after 30.03s
+[1545574048] wproc:   host=Dell7480-2252; service=(null);
+[1545574048] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545574048] Warning: Check of host 'Dell7480-2252' timed out after 30.03 seconds
+[1545574048] wproc: Core Worker 4580: job 13 (pid=6907): Dormant child reaped
+[1545574068] Caught SIGTERM, shutting down...
+[1545574068] Successfully shutdown... (PID=4576)
+[1545577780] Nagios 4.4.2 starting... (PID=16392)
+[1545577780] Local time is Sun Dec 23 20:39:40 IST 2018
+[1545577780] LOG VERSION: 2.0
+[1545577780] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545577780] qh: core query handler registered
+[1545577780] qh: echo service query handler registered
+[1545577780] qh: help for the query handler registered
+[1545577780] wproc: Successfully registered manager as @wproc with query handler
+[1545577780] wproc: Registry request: name=Core Worker 16398;pid=16398
+[1545577780] wproc: Registry request: name=Core Worker 16395;pid=16395
+[1545577780] wproc: Registry request: name=Core Worker 16396;pid=16396
+[1545577780] wproc: Registry request: name=Core Worker 16397;pid=16397
+[1545577780] Successfully launched command file worker with pid 16400
+[1545581380] Auto-save of retention data completed successfully.
+[1545584033] Caught SIGTERM, shutting down...
+[1545584033] Successfully shutdown... (PID=16392)
+[1545584034] Nagios 4.4.2 starting... (PID=20262)
+[1545584034] Local time is Sun Dec 23 22:23:54 IST 2018
+[1545584034] LOG VERSION: 2.0
+[1545584034] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545584034] qh: core query handler registered
+[1545584034] qh: echo service query handler registered
+[1545584034] qh: help for the query handler registered
+[1545584034] wproc: Successfully registered manager as @wproc with query handler
+[1545584034] wproc: Registry request: name=Core Worker 20267;pid=20267
+[1545584034] wproc: Registry request: name=Core Worker 20264;pid=20264
+[1545584034] wproc: Registry request: name=Core Worker 20265;pid=20265
+[1545584034] wproc: Registry request: name=Core Worker 20266;pid=20266
+[1545584035] Successfully launched command file worker with pid 20270
+[1545584089] Caught SIGTERM, shutting down...
+[1545584089] Successfully shutdown... (PID=20262)
+[1545586013] Nagios 4.4.2 starting... (PID=20715)
+[1545586013] Local time is Sun Dec 23 22:56:53 IST 2018
+[1545586013] LOG VERSION: 2.0
+[1545586013] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545586013] qh: core query handler registered
+[1545586013] qh: echo service query handler registered
+[1545586013] qh: help for the query handler registered
+[1545586013] wproc: Successfully registered manager as @wproc with query handler
+[1545586013] wproc: Registry request: name=Core Worker 20720;pid=20720
+[1545586013] wproc: Registry request: name=Core Worker 20717;pid=20717
+[1545586013] wproc: Registry request: name=Core Worker 20718;pid=20718
+[1545586013] wproc: Registry request: name=Core Worker 20719;pid=20719
+[1545586013] Successfully launched command file worker with pid 20723
+[1545586049] wproc: Core Worker 20717: job 0 (pid=20726) timed out. Killing it
+[1545586049] wproc: CHECK job 0 from worker Core Worker 20717 timed out after 30.01s
+[1545586049] wproc:   host=win-2016; service=(null);
+[1545586049] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586049] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545586049] HOST ALERT: win-2016;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1545586050] wproc: Core Worker 20717: job 0 (pid=20726): Dormant child reaped
+[1545586072] wproc: Core Worker 20719: job 0 (pid=20741) timed out. Killing it
+[1545586072] wproc: CHECK job 0 from worker Core Worker 20719 timed out after 30.01s
+[1545586072] wproc:   host=win-2012; service=(null);
+[1545586072] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586072] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545586072] HOST ALERT: win-2012;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1545586073] wproc: Core Worker 20719: job 0 (pid=20741): Dormant child reaped
+[1545586103] SERVICE ALERT: win-2012;D:\ Drive Space;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586117] SERVICE ALERT: win-2016;D:\ Drive Space;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586139] wproc: Core Worker 20719: job 2 (pid=20761) timed out. Killing it
+[1545586139] wproc: CHECK job 2 from worker Core Worker 20719 timed out after 30.04s
+[1545586139] wproc:   host=win-2016; service=(null);
+[1545586139] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586139] Warning: Check of host 'win-2016' timed out after 30.04 seconds
+[1545586140] wproc: Core Worker 20719: job 2 (pid=20761): Dormant child reaped
+[1545586157] SERVICE ALERT: win-2012;Explorer;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586162] wproc: Core Worker 20717: job 3 (pid=20765) timed out. Killing it
+[1545586162] wproc: CHECK job 3 from worker Core Worker 20717 timed out after 30.01s
+[1545586162] wproc:   host=win-2012; service=(null);
+[1545586162] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586162] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545586163] wproc: Core Worker 20717: job 3 (pid=20765): Dormant child reaped
+[1545586171] SERVICE ALERT: win-2016;Explorer;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586174] SERVICE ALERT: ansiblecmserver;HTTP;CRITICAL;SOFT;1;connect to address 192.168.1.6 and port 80: No route to host
+[1545586211] SERVICE ALERT: win-2012;Memory Usage;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586225] SERVICE ALERT: win-2016;Memory Usage;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586229] wproc: Core Worker 20717: job 5 (pid=20786) timed out. Killing it
+[1545586229] wproc: CHECK job 5 from worker Core Worker 20717 timed out after 30.01s
+[1545586229] wproc:   host=win-2016; service=(null);
+[1545586229] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586229] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545586230] wproc: Core Worker 20717: job 5 (pid=20786): Dormant child reaped
+[1545586233] SERVICE NOTIFICATION: nagiosadmin;win-2012;D:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586234] SERVICE ALERT: ansiblecmserver;HTTP;CRITICAL;SOFT;2;connect to address 192.168.1.6 and port 80: No route to host
+[1545586247] SERVICE NOTIFICATION: nagiosadmin;win-2016;D:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586252] wproc: Core Worker 20720: job 6 (pid=20809) timed out. Killing it
+[1545586252] wproc: CHECK job 6 from worker Core Worker 20720 timed out after 30.02s
+[1545586252] wproc:   host=win-2012; service=(null);
+[1545586252] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586252] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545586253] wproc: Core Worker 20720: job 6 (pid=20809): Dormant child reaped
+[1545586265] SERVICE ALERT: win-2012;NSClient++ Version;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586279] SERVICE ALERT: win-2016;NSClient++ Version;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586287] SERVICE NOTIFICATION: nagiosadmin;win-2012;Explorer;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586294] SERVICE ALERT: ansiblecmserver;HTTP;CRITICAL;SOFT;3;connect to address 192.168.1.6 and port 80: No route to host
+[1545586301] SERVICE NOTIFICATION: nagiosadmin;win-2016;Explorer;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586319] SERVICE ALERT: win-2012;Uptime;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586319] wproc: Core Worker 20719: job 9 (pid=20871) timed out. Killing it
+[1545586319] wproc: CHECK job 9 from worker Core Worker 20719 timed out after 30.01s
+[1545586319] wproc:   host=win-2016; service=(null);
+[1545586319] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586319] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545586320] wproc: Core Worker 20719: job 9 (pid=20871): Dormant child reaped
+[1545586333] SERVICE ALERT: win-2016;Uptime;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586341] SERVICE NOTIFICATION: nagiosadmin;win-2012;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586342] wproc: Core Worker 20717: job 11 (pid=20887) timed out. Killing it
+[1545586342] wproc: CHECK job 11 from worker Core Worker 20717 timed out after 30.01s
+[1545586342] wproc:   host=win-2012; service=(null);
+[1545586342] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586342] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545586343] wproc: Core Worker 20717: job 11 (pid=20887): Dormant child reaped
+[1545586354] SERVICE ALERT: ansiblecmserver;HTTP;CRITICAL;HARD;4;connect to address 192.168.1.6 and port 80: No route to host
+[1545586355] SERVICE NOTIFICATION: nagiosadmin;win-2016;Memory Usage;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586373] SERVICE ALERT: win-2012;W3SVC;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586387] SERVICE ALERT: win-2016;W3SVC;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586395] SERVICE NOTIFICATION: nagiosadmin;win-2012;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586409] SERVICE NOTIFICATION: nagiosadmin;win-2016;NSClient++ Version;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586409] wproc: Core Worker 20719: job 14 (pid=20926) timed out. Killing it
+[1545586409] wproc: CHECK job 14 from worker Core Worker 20719 timed out after 30.01s
+[1545586409] wproc:   host=win-2016; service=(null);
+[1545586409] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586409] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545586410] wproc: Core Worker 20719: job 14 (pid=20926): Dormant child reaped
+[1545586417] SERVICE ALERT: win-2012;wuauserv;UNKNOWN;HARD;1;Usage:
+[1545586431] SERVICE ALERT: win-2016;wuauserv;UNKNOWN;HARD;1;Usage:
+[1545586432] wproc: Core Worker 20720: job 16 (pid=20947) timed out. Killing it
+[1545586432] wproc: CHECK job 16 from worker Core Worker 20720 timed out after 30.01s
+[1545586432] wproc:   host=win-2012; service=(null);
+[1545586432] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586432] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545586433] wproc: Core Worker 20720: job 16 (pid=20947): Dormant child reaped
+[1545586449] SERVICE NOTIFICATION: nagiosadmin;win-2012;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586463] SERVICE NOTIFICATION: nagiosadmin;win-2016;Uptime;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586468] SERVICE ALERT: win-2012;C:\ Drive Space;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586481] SERVICE ALERT: win-2016;C:\ Drive Space;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586485] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;C:\ Drive Space;1545586484
+[1545586495] SERVICE NOTIFICATION: nagiosadmin;win-2012;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586500] wproc: Core Worker 20720: job 19 (pid=20993) timed out. Killing it
+[1545586500] wproc: CHECK job 19 from worker Core Worker 20720 timed out after 30.01s
+[1545586500] wproc:   host=win-2016; service=(null);
+[1545586500] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586500] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545586500] wproc: Core Worker 20720: job 19 (pid=20993): Dormant child reaped
+[1545586503] SERVICE NOTIFICATION: nagiosadmin;win-2012;W3SVC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586517] SERVICE NOTIFICATION: nagiosadmin;win-2016;W3SVC;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586522] SERVICE ALERT: win-2012;CPU Load;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586522] wproc: Core Worker 20717: job 20 (pid=21007) timed out. Killing it
+[1545586522] wproc: CHECK job 20 from worker Core Worker 20717 timed out after 30.01s
+[1545586522] wproc:   host=win-2012; service=(null);
+[1545586522] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586522] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545586523] wproc: Core Worker 20717: job 20 (pid=21007): Dormant child reaped
+[1545586535] SERVICE ALERT: win-2016;CPU Load;CRITICAL;HARD;1;CRITICAL - Socket timeout
+[1545586537] SERVICE NOTIFICATION: nagiosadmin;win-2012;wuauserv;UNKNOWN;notify-service-by-email;Usage:
+[1545586551] SERVICE NOTIFICATION: nagiosadmin;win-2016;wuauserv;UNKNOWN;notify-service-by-email;Usage:
+[1545586590] wproc: Core Worker 20719: job 23 (pid=21064) timed out. Killing it
+[1545586590] wproc: CHECK job 23 from worker Core Worker 20719 timed out after 30.01s
+[1545586590] wproc:   host=win-2016; service=(null);
+[1545586590] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586590] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545586590] wproc: Core Worker 20719: job 23 (pid=21064): Dormant child reaped
+[1545586611] SERVICE NOTIFICATION: nagiosadmin;win-2016;C:\ Drive Space;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586612] wproc: Core Worker 20717: job 24 (pid=21075) timed out. Killing it
+[1545586612] wproc: CHECK job 24 from worker Core Worker 20717 timed out after 30.01s
+[1545586612] wproc:   host=win-2012; service=(null);
+[1545586612] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586612] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545586613] wproc: Core Worker 20717: job 24 (pid=21075): Dormant child reaped
+[1545586652] SERVICE NOTIFICATION: nagiosadmin;win-2012;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586665] SERVICE NOTIFICATION: nagiosadmin;win-2016;CPU Load;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1545586680] wproc: Core Worker 20717: job 26 (pid=21102) timed out. Killing it
+[1545586680] wproc: CHECK job 26 from worker Core Worker 20717 timed out after 30.01s
+[1545586680] wproc:   host=win-2016; service=(null);
+[1545586680] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586680] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545586680] wproc: Core Worker 20717: job 26 (pid=21102): Dormant child reaped
+[1545586703] wproc: Core Worker 20718: job 28 (pid=21128) timed out. Killing it
+[1545586703] wproc: CHECK job 28 from worker Core Worker 20718 timed out after 30.01s
+[1545586703] wproc:   host=win-2012; service=(null);
+[1545586703] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586703] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545586703] wproc: Core Worker 20718: job 28 (pid=21128): Dormant child reaped
+[1545586770] wproc: Core Worker 20718: job 29 (pid=21142) timed out. Killing it
+[1545586770] wproc: CHECK job 29 from worker Core Worker 20718 timed out after 30.04s
+[1545586770] wproc:   host=win-2016; service=(null);
+[1545586770] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586770] Warning: Check of host 'win-2016' timed out after 30.04 seconds
+[1545586770] wproc: Core Worker 20718: job 29 (pid=21142): Dormant child reaped
+[1545586793] wproc: Core Worker 20719: job 29 (pid=21152) timed out. Killing it
+[1545586793] wproc: CHECK job 29 from worker Core Worker 20719 timed out after 30.01s
+[1545586793] wproc:   host=win-2012; service=(null);
+[1545586793] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586793] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545586793] wproc: Core Worker 20719: job 29 (pid=21152): Dormant child reaped
+[1545586860] wproc: Core Worker 20717: job 31 (pid=21183) timed out. Killing it
+[1545586860] wproc: CHECK job 31 from worker Core Worker 20717 timed out after 30.01s
+[1545586860] wproc:   host=win-2016; service=(null);
+[1545586860] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586860] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545586860] HOST NOTIFICATION: nagiosadmin;win-2016;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1545586860] HOST ALERT: win-2016;DOWN;HARD;10;(Host check timed out after 30.01 seconds)
+[1545586860] wproc: Core Worker 20717: job 31 (pid=21183): Dormant child reaped
+[1545586883] wproc: Core Worker 20720: job 32 (pid=21188) timed out. Killing it
+[1545586883] wproc: CHECK job 32 from worker Core Worker 20720 timed out after 30.03s
+[1545586883] wproc:   host=win-2012; service=(null);
+[1545586883] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586883] Warning: Check of host 'win-2012' timed out after 30.03 seconds
+[1545586883] HOST NOTIFICATION: nagiosadmin;win-2012;DOWN;notify-host-by-email;(Host check timed out after 30.03 seconds)
+[1545586883] HOST ALERT: win-2012;DOWN;HARD;10;(Host check timed out after 30.03 seconds)
+[1545586883] wproc: Core Worker 20720: job 32 (pid=21188): Dormant child reaped
+[1545586950] wproc: Core Worker 20717: job 34 (pid=21222) timed out. Killing it
+[1545586950] wproc: CHECK job 34 from worker Core Worker 20717 timed out after 30.01s
+[1545586950] wproc:   host=win-2016; service=(null);
+[1545586950] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586950] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545586950] wproc: Core Worker 20717: job 34 (pid=21222): Dormant child reaped
+[1545586973] wproc: Core Worker 20720: job 35 (pid=21234) timed out. Killing it
+[1545586973] wproc: CHECK job 35 from worker Core Worker 20720 timed out after 30.01s
+[1545586973] wproc:   host=win-2012; service=(null);
+[1545586973] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545586973] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545586973] wproc: Core Worker 20720: job 35 (pid=21234): Dormant child reaped
+[1545586991] Caught SIGTERM, shutting down...
+[1545586991] Successfully shutdown... (PID=20715)
+[1545586992] Nagios 4.4.2 starting... (PID=21294)
+[1545586992] Local time is Sun Dec 23 23:13:12 IST 2018
+[1545586992] LOG VERSION: 2.0
+[1545586992] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545586992] qh: core query handler registered
+[1545586992] qh: echo service query handler registered
+[1545586992] qh: help for the query handler registered
+[1545586992] wproc: Successfully registered manager as @wproc with query handler
+[1545586992] wproc: Registry request: name=Core Worker 21299;pid=21299
+[1545586992] wproc: Registry request: name=Core Worker 21296;pid=21296
+[1545586992] wproc: Registry request: name=Core Worker 21297;pid=21297
+[1545586992] wproc: Registry request: name=Core Worker 21298;pid=21298
+[1545586992] Successfully launched command file worker with pid 21302
+[1545587033] wproc: Core Worker 21297: job 0 (pid=21318) timed out. Killing it
+[1545587033] wproc: CHECK job 0 from worker Core Worker 21297 timed out after 30.02s
+[1545587033] wproc:   host=win-2012; service=(null);
+[1545587033] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587033] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545587033] wproc: Core Worker 21297: job 0 (pid=21318): Dormant child reaped
+[1545587062] wproc: Core Worker 21296: job 1 (pid=21323) timed out. Killing it
+[1545587062] wproc: CHECK job 1 from worker Core Worker 21296 timed out after 30.01s
+[1545587062] wproc:   host=win-2016; service=(null);
+[1545587062] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587062] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545587062] wproc: Core Worker 21296: job 1 (pid=21323): Dormant child reaped
+[1545587093] wproc: Core Worker 21298: job 2 (pid=21340) timed out. Killing it
+[1545587093] wproc: CHECK job 2 from worker Core Worker 21298 timed out after 30.01s
+[1545587093] wproc:   host=win-2012; service=(null);
+[1545587093] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587093] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545587093] wproc: Core Worker 21298: job 2 (pid=21340): Dormant child reaped
+[1545587122] wproc: Core Worker 21298: job 3 (pid=21347) timed out. Killing it
+[1545587122] wproc: CHECK job 3 from worker Core Worker 21298 timed out after 30.03s
+[1545587122] wproc:   host=win-2016; service=(null);
+[1545587122] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587122] Warning: Check of host 'win-2016' timed out after 30.03 seconds
+[1545587122] wproc: Core Worker 21298: job 3 (pid=21347): Dormant child reaped
+[1545587145] SERVICE ALERT: chefnode;HTTP;CRITICAL;SOFT;1;connect to address 192.168.1.7 and port 80: No route to host
+[1545587153] wproc: Core Worker 21298: job 4 (pid=21361) timed out. Killing it
+[1545587153] wproc: CHECK job 4 from worker Core Worker 21298 timed out after 30.02s
+[1545587153] wproc:   host=win-2012; service=(null);
+[1545587153] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587153] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545587153] wproc: Core Worker 21298: job 4 (pid=21361): Dormant child reaped
+[1545587182] wproc: Core Worker 21297: job 6 (pid=21372) timed out. Killing it
+[1545587182] wproc: CHECK job 6 from worker Core Worker 21297 timed out after 30.01s
+[1545587182] wproc:   host=win-2016; service=(null);
+[1545587182] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587182] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545587182] wproc: Core Worker 21297: job 6 (pid=21372): Dormant child reaped
+[1545587205] SERVICE ALERT: chefnode;HTTP;CRITICAL;SOFT;2;connect to address 192.168.1.7 and port 80: No route to host
+[1545587213] wproc: Core Worker 21299: job 7 (pid=21383) timed out. Killing it
+[1545587213] wproc: CHECK job 7 from worker Core Worker 21299 timed out after 30.02s
+[1545587213] wproc:   host=win-2012; service=(null);
+[1545587213] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587213] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545587213] wproc: Core Worker 21299: job 7 (pid=21383): Dormant child reaped
+[1545587242] wproc: Core Worker 21298: job 8 (pid=21396) timed out. Killing it
+[1545587242] wproc: CHECK job 8 from worker Core Worker 21298 timed out after 30.02s
+[1545587242] wproc:   host=win-2016; service=(null);
+[1545587242] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587242] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545587242] wproc: Core Worker 21298: job 8 (pid=21396): Dormant child reaped
+[1545587265] SERVICE ALERT: chefnode;HTTP;CRITICAL;SOFT;3;connect to address 192.168.1.7 and port 80: No route to host
+[1545587273] wproc: Core Worker 21297: job 9 (pid=21408) timed out. Killing it
+[1545587273] wproc: CHECK job 9 from worker Core Worker 21297 timed out after 30.01s
+[1545587273] wproc:   host=win-2012; service=(null);
+[1545587273] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587273] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545587273] wproc: Core Worker 21297: job 9 (pid=21408): Dormant child reaped
+[1545587302] wproc: Core Worker 21299: job 12 (pid=21422) timed out. Killing it
+[1545587302] wproc: CHECK job 12 from worker Core Worker 21299 timed out after 30.02s
+[1545587302] wproc:   host=win-2016; service=(null);
+[1545587302] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587302] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545587302] wproc: Core Worker 21299: job 12 (pid=21422): Dormant child reaped
+[1545587325] SERVICE ALERT: chefnode;HTTP;CRITICAL;HARD;4;connect to address 192.168.1.7 and port 80: No route to host
+[1545587333] wproc: Core Worker 21298: job 12 (pid=21436) timed out. Killing it
+[1545587333] wproc: CHECK job 12 from worker Core Worker 21298 timed out after 30.01s
+[1545587333] wproc:   host=win-2012; service=(null);
+[1545587333] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587333] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545587333] wproc: Core Worker 21298: job 12 (pid=21436): Dormant child reaped
+[1545587362] wproc: Core Worker 21298: job 13 (pid=21443) timed out. Killing it
+[1545587362] wproc: CHECK job 13 from worker Core Worker 21298 timed out after 30.01s
+[1545587362] wproc:   host=win-2016; service=(null);
+[1545587362] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587362] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545587362] wproc: Core Worker 21298: job 13 (pid=21443): Dormant child reaped
+[1545587393] wproc: Core Worker 21298: job 14 (pid=21458) timed out. Killing it
+[1545587393] wproc: CHECK job 14 from worker Core Worker 21298 timed out after 30.03s
+[1545587393] wproc:   host=win-2012; service=(null);
+[1545587393] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587393] Warning: Check of host 'win-2012' timed out after 30.03 seconds
+[1545587393] wproc: Core Worker 21298: job 14 (pid=21458): Dormant child reaped
+[1545587422] wproc: Core Worker 21297: job 15 (pid=21464) timed out. Killing it
+[1545587422] wproc: CHECK job 15 from worker Core Worker 21297 timed out after 30.02s
+[1545587422] wproc:   host=win-2016; service=(null);
+[1545587422] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587422] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545587422] wproc: Core Worker 21297: job 15 (pid=21464): Dormant child reaped
+[1545587453] wproc: Core Worker 21296: job 16 (pid=21488) timed out. Killing it
+[1545587453] wproc: CHECK job 16 from worker Core Worker 21296 timed out after 30.01s
+[1545587453] wproc:   host=win-2012; service=(null);
+[1545587453] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587453] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545587453] wproc: Core Worker 21296: job 16 (pid=21488): Dormant child reaped
+[1545587482] wproc: Core Worker 21298: job 17 (pid=21497) timed out. Killing it
+[1545587482] wproc: CHECK job 17 from worker Core Worker 21298 timed out after 30.03s
+[1545587482] wproc:   host=win-2016; service=(null);
+[1545587482] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587482] Warning: Check of host 'win-2016' timed out after 30.03 seconds
+[1545587482] wproc: Core Worker 21298: job 17 (pid=21497): Dormant child reaped
+[1545587513] wproc: Core Worker 21297: job 18 (pid=21509) timed out. Killing it
+[1545587513] wproc: CHECK job 18 from worker Core Worker 21297 timed out after 30.02s
+[1545587513] wproc:   host=win-2012; service=(null);
+[1545587513] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587513] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545587513] wproc: Core Worker 21297: job 18 (pid=21509): Dormant child reaped
+[1545587542] wproc: Core Worker 21299: job 20 (pid=21521) timed out. Killing it
+[1545587542] wproc: CHECK job 20 from worker Core Worker 21299 timed out after 30.01s
+[1545587542] wproc:   host=win-2016; service=(null);
+[1545587542] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587542] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545587542] wproc: Core Worker 21299: job 20 (pid=21521): Dormant child reaped
+[1545587573] wproc: Core Worker 21298: job 20 (pid=21533) timed out. Killing it
+[1545587573] wproc: CHECK job 20 from worker Core Worker 21298 timed out after 30.01s
+[1545587573] wproc:   host=win-2012; service=(null);
+[1545587573] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587573] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545587573] wproc: Core Worker 21298: job 20 (pid=21533): Dormant child reaped
+[1545587602] wproc: Core Worker 21299: job 23 (pid=21546) timed out. Killing it
+[1545587602] wproc: CHECK job 23 from worker Core Worker 21299 timed out after 30.01s
+[1545587602] wproc:   host=win-2016; service=(null);
+[1545587602] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587602] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545587602] wproc: Core Worker 21299: job 23 (pid=21546): Dormant child reaped
+[1545587633] wproc: Core Worker 21299: job 24 (pid=21561) timed out. Killing it
+[1545587633] wproc: CHECK job 24 from worker Core Worker 21299 timed out after 30.01s
+[1545587633] wproc:   host=win-2012; service=(null);
+[1545587633] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587633] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545587633] wproc: Core Worker 21299: job 24 (pid=21561): Dormant child reaped
+[1545587662] wproc: Core Worker 21299: job 25 (pid=21567) timed out. Killing it
+[1545587662] wproc: CHECK job 25 from worker Core Worker 21299 timed out after 30.01s
+[1545587662] wproc:   host=win-2016; service=(null);
+[1545587662] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587662] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545587662] wproc: Core Worker 21299: job 25 (pid=21567): Dormant child reaped
+[1545587693] wproc: Core Worker 21297: job 26 (pid=21584) timed out. Killing it
+[1545587693] wproc: CHECK job 26 from worker Core Worker 21297 timed out after 30.01s
+[1545587693] wproc:   host=win-2012; service=(null);
+[1545587693] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587693] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545587693] wproc: Core Worker 21297: job 26 (pid=21584): Dormant child reaped
+[1545587722] wproc: Core Worker 21297: job 27 (pid=21592) timed out. Killing it
+[1545587722] wproc: CHECK job 27 from worker Core Worker 21297 timed out after 30.01s
+[1545587722] wproc:   host=win-2016; service=(null);
+[1545587722] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587722] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545587722] wproc: Core Worker 21297: job 27 (pid=21592): Dormant child reaped
+[1545587753] wproc: Core Worker 21297: job 28 (pid=21605) timed out. Killing it
+[1545587753] wproc: CHECK job 28 from worker Core Worker 21297 timed out after 30.01s
+[1545587753] wproc:   host=win-2012; service=(null);
+[1545587753] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587753] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545587753] wproc: Core Worker 21297: job 28 (pid=21605): Dormant child reaped
+[1545587771] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;win-2012;1545587770
+[1545587782] wproc: Core Worker 21299: job 30 (pid=21614) timed out. Killing it
+[1545587782] wproc: CHECK job 30 from worker Core Worker 21299 timed out after 30.01s
+[1545587782] wproc:   host=win-2016; service=(null);
+[1545587782] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587782] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545587782] wproc: Core Worker 21299: job 30 (pid=21614): Dormant child reaped
+[1545587791] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;NSClient++ Version;1545587790
+[1545587801] wproc: Core Worker 21296: job 30 (pid=21621) timed out. Killing it
+[1545587801] wproc: CHECK job 30 from worker Core Worker 21296 timed out after 30.01s
+[1545587801] wproc:   host=win-2012; service=(null);
+[1545587801] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587801] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545587801] wproc: Core Worker 21296: job 30 (pid=21621): Dormant child reaped
+[1545587842] wproc: Core Worker 21296: job 32 (pid=21653) timed out. Killing it
+[1545587842] wproc: CHECK job 32 from worker Core Worker 21296 timed out after 30.01s
+[1545587842] wproc:   host=win-2016; service=(null);
+[1545587842] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587842] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545587842] wproc: Core Worker 21296: job 32 (pid=21653): Dormant child reaped
+[1545587861] wproc: Core Worker 21298: job 32 (pid=21656) timed out. Killing it
+[1545587861] wproc: CHECK job 32 from worker Core Worker 21298 timed out after 30.01s
+[1545587861] wproc:   host=win-2012; service=(null);
+[1545587861] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587861] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545587861] wproc: Core Worker 21298: job 32 (pid=21656): Dormant child reaped
+[1545587902] wproc: Core Worker 21296: job 35 (pid=21680) timed out. Killing it
+[1545587902] wproc: CHECK job 35 from worker Core Worker 21296 timed out after 30.03s
+[1545587902] wproc:   host=win-2016; service=(null);
+[1545587902] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587902] Warning: Check of host 'win-2016' timed out after 30.03 seconds
+[1545587902] wproc: Core Worker 21296: job 35 (pid=21680): Dormant child reaped
+[1545587921] wproc: Core Worker 21299: job 36 (pid=21685) timed out. Killing it
+[1545587921] wproc: CHECK job 36 from worker Core Worker 21299 timed out after 30.03s
+[1545587921] wproc:   host=win-2012; service=(null);
+[1545587921] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587921] Warning: Check of host 'win-2012' timed out after 30.03 seconds
+[1545587921] wproc: Core Worker 21299: job 36 (pid=21685): Dormant child reaped
+[1545587962] wproc: Core Worker 21299: job 37 (pid=21698) timed out. Killing it
+[1545587962] wproc: CHECK job 37 from worker Core Worker 21299 timed out after 30.01s
+[1545587962] wproc:   host=win-2016; service=(null);
+[1545587962] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587962] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545587962] wproc: Core Worker 21299: job 37 (pid=21698): Dormant child reaped
+[1545587981] wproc: Core Worker 21298: job 37 (pid=21703) timed out. Killing it
+[1545587981] wproc: CHECK job 37 from worker Core Worker 21298 timed out after 30.04s
+[1545587981] wproc:   host=win-2012; service=(null);
+[1545587981] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545587981] Warning: Check of host 'win-2012' timed out after 30.04 seconds
+[1545587981] wproc: Core Worker 21298: job 37 (pid=21703): Dormant child reaped
+[1545588022] wproc: Core Worker 21298: job 38 (pid=21720) timed out. Killing it
+[1545588022] wproc: CHECK job 38 from worker Core Worker 21298 timed out after 30.00s
+[1545588022] wproc:   host=win-2016; service=(null);
+[1545588022] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588022] Warning: Check of host 'win-2016' timed out after 30.00 seconds
+[1545588022] wproc: Core Worker 21298: job 38 (pid=21720): Dormant child reaped
+[1545588041] wproc: Core Worker 21296: job 39 (pid=21734) timed out. Killing it
+[1545588041] wproc: CHECK job 39 from worker Core Worker 21296 timed out after 30.01s
+[1545588041] wproc:   host=win-2012; service=(null);
+[1545588041] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588041] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545588041] wproc: Core Worker 21296: job 39 (pid=21734): Dormant child reaped
+[1545588077] SERVICE ALERT: win-2012;Explorer;UNKNOWN;HARD;3;Unknown command(s): check_process
+[1545588082] wproc: Core Worker 21298: job 40 (pid=21752) timed out. Killing it
+[1545588082] wproc: CHECK job 40 from worker Core Worker 21298 timed out after 30.02s
+[1545588082] wproc:   host=win-2016; service=(null);
+[1545588082] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588082] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545588082] wproc: Core Worker 21298: job 40 (pid=21752): Dormant child reaped
+[1545588101] wproc: Core Worker 21299: job 41 (pid=21756) timed out. Killing it
+[1545588101] wproc: CHECK job 41 from worker Core Worker 21299 timed out after 30.02s
+[1545588101] wproc:   host=win-2012; service=(null);
+[1545588101] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588101] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545588101] wproc: Core Worker 21299: job 41 (pid=21756): Dormant child reaped
+[1545588131] SERVICE ALERT: win-2012;Memory Usage;UNKNOWN;HARD;3;NSClient - ERROR: No performance data from command: check_memory
+[1545588142] wproc: Core Worker 21299: job 43 (pid=21778) timed out. Killing it
+[1545588142] wproc: CHECK job 43 from worker Core Worker 21299 timed out after 30.01s
+[1545588142] wproc:   host=win-2016; service=(null);
+[1545588142] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588142] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545588142] wproc: Core Worker 21299: job 43 (pid=21778): Dormant child reaped
+[1545588161] wproc: Core Worker 21298: job 43 (pid=21782) timed out. Killing it
+[1545588161] wproc: CHECK job 43 from worker Core Worker 21298 timed out after 30.01s
+[1545588161] wproc:   host=win-2012; service=(null);
+[1545588161] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588161] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545588161] wproc: Core Worker 21298: job 43 (pid=21782): Dormant child reaped
+[1545588202] wproc: Core Worker 21299: job 46 (pid=21805) timed out. Killing it
+[1545588202] wproc: CHECK job 46 from worker Core Worker 21299 timed out after 30.01s
+[1545588202] wproc:   host=win-2016; service=(null);
+[1545588202] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588202] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545588202] wproc: Core Worker 21299: job 46 (pid=21805): Dormant child reaped
+[1545588221] wproc: Core Worker 21298: job 46 (pid=21810) timed out. Killing it
+[1545588221] wproc: CHECK job 46 from worker Core Worker 21298 timed out after 30.03s
+[1545588221] wproc:   host=win-2012; service=(null);
+[1545588221] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588221] Warning: Check of host 'win-2012' timed out after 30.03 seconds
+[1545588222] wproc: Core Worker 21298: job 46 (pid=21810): Dormant child reaped
+[1545588239] SERVICE ALERT: win-2012;Uptime;UNKNOWN;HARD;3;NSClient - ERROR: No performance data from command: check_uptime
+[1545588250] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;Explorer;1545588249
+[1545588262] wproc: Core Worker 21299: job 48 (pid=21827) timed out. Killing it
+[1545588262] wproc: CHECK job 48 from worker Core Worker 21299 timed out after 30.02s
+[1545588262] wproc:   host=win-2016; service=(null);
+[1545588262] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588262] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545588262] wproc: Core Worker 21299: job 48 (pid=21827): Dormant child reaped
+[1545588281] wproc: Core Worker 21296: job 49 (pid=21837) timed out. Killing it
+[1545588281] wproc: CHECK job 49 from worker Core Worker 21296 timed out after 30.03s
+[1545588281] wproc:   host=win-2012; service=(null);
+[1545588281] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588281] Warning: Check of host 'win-2012' timed out after 30.03 seconds
+[1545588282] wproc: Core Worker 21296: job 49 (pid=21837): Dormant child reaped
+[1545588285] SERVICE ALERT: win-2012;C:\ Drive Space;UNKNOWN;HARD;3;NSClient - ERROR: No performance data from command: check_drivesize
+[1545588293] SERVICE ALERT: win-2012;W3SVC;UNKNOWN;HARD;3;Unknown command(s): check_service
+[1545588322] wproc: Core Worker 21298: job 50 (pid=21857) timed out. Killing it
+[1545588322] wproc: CHECK job 50 from worker Core Worker 21298 timed out after 30.02s
+[1545588322] wproc:   host=win-2016; service=(null);
+[1545588322] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588322] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545588322] wproc: Core Worker 21298: job 50 (pid=21857): Dormant child reaped
+[1545588341] wproc: Core Worker 21298: job 51 (pid=21862) timed out. Killing it
+[1545588341] wproc: CHECK job 51 from worker Core Worker 21298 timed out after 30.02s
+[1545588341] wproc:   host=win-2012; service=(null);
+[1545588341] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588341] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545588342] wproc: Core Worker 21298: job 51 (pid=21862): Dormant child reaped
+[1545588356] Caught SIGTERM, shutting down...
+[1545588356] Successfully shutdown... (PID=21294)
+[1545588357] Nagios 4.4.2 starting... (PID=21925)
+[1545588357] Local time is Sun Dec 23 23:35:57 IST 2018
+[1545588357] LOG VERSION: 2.0
+[1545588357] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545588357] qh: core query handler registered
+[1545588357] qh: echo service query handler registered
+[1545588357] qh: help for the query handler registered
+[1545588357] wproc: Successfully registered manager as @wproc with query handler
+[1545588357] wproc: Registry request: name=Core Worker 21931;pid=21931
+[1545588357] wproc: Registry request: name=Core Worker 21928;pid=21928
+[1545588357] wproc: Registry request: name=Core Worker 21929;pid=21929
+[1545588357] wproc: Registry request: name=Core Worker 21930;pid=21930
+[1545588357] Successfully launched command file worker with pid 21933
+[1545588387] wproc: Core Worker 21931: job 0 (pid=21934) timed out. Killing it
+[1545588387] wproc: CHECK job 0 from worker Core Worker 21931 timed out after 30.03s
+[1545588387] wproc:   host=win-2016; service=(null);
+[1545588387] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588387] Warning: Check of host 'win-2016' timed out after 30.03 seconds
+[1545588387] wproc: Core Worker 21931: job 0 (pid=21934): Dormant child reaped
+[1545588391] SERVICE NOTIFICATION: nagiosadmin;win-2012;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0.5.2.35 2018-01-28
+[1545588391] SERVICE ALERT: win-2012;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.2.35 2018-01-28
+[1545588401] wproc: Core Worker 21928: job 0 (pid=21937) timed out. Killing it
+[1545588401] wproc: CHECK job 0 from worker Core Worker 21928 timed out after 30.01s
+[1545588401] wproc:   host=win-2012; service=(null);
+[1545588401] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588401] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545588401] wproc: Core Worker 21928: job 0 (pid=21937): Dormant child reaped
+[1545588429] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;NSClient++ Version;1545588428
+[1545588439] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;Memory Usage;1545588438
+[1545588439] SERVICE NOTIFICATION: nagiosadmin;win-2012;Memory Usage;OK;notify-service-by-email;Memory usage: total:3701.59 MB - used: 2224.79 MB (60%) - free: 1476.79 MB (40%)
+[1545588439] SERVICE ALERT: win-2012;Memory Usage;OK;HARD;1;Memory usage: total:3701.59 MB - used: 2224.79 MB (60%) - free: 1476.79 MB (40%)
+[1545588442] SERVICE NOTIFICATION: nagiosadmin;win-2012;CPU Load;OK;notify-service-by-email;CPU Load 0% (5 min average)
+[1545588442] SERVICE ALERT: win-2012;CPU Load;OK;HARD;1;CPU Load 0% (5 min average)
+[1545588447] wproc: Core Worker 21929: job 2 (pid=21965) timed out. Killing it
+[1545588447] wproc: CHECK job 2 from worker Core Worker 21929 timed out after 30.01s
+[1545588447] wproc:   host=win-2016; service=(null);
+[1545588447] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588447] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545588447] wproc: Core Worker 21929: job 2 (pid=21965): Dormant child reaped
+[1545588450] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;Uptime;1545588449
+[1545588450] SERVICE NOTIFICATION: nagiosadmin;win-2012;Uptime;OK;notify-service-by-email;System Uptime - 0 day(s) 5 hour(s) 45 minute(s)
+[1545588450] SERVICE ALERT: win-2012;Uptime;OK;HARD;1;System Uptime - 0 day(s) 5 hour(s) 45 minute(s)
+[1545588459] wproc: Core Worker 21928: job 3 (pid=21972) timed out. Killing it
+[1545588459] wproc: CHECK job 3 from worker Core Worker 21928 timed out after 30.01s
+[1545588459] wproc:   host=win-2012; service=(null);
+[1545588459] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588459] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545588459] wproc: Core Worker 21928: job 3 (pid=21972): Dormant child reaped
+[1545588463] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;W3SVC;1545588462
+[1545588476] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;Explorer;1545588475
+[1545588476] SERVICE ALERT: win-2012;Explorer;CRITICAL;HARD;3;Explorer.exe: not running
+[1545588487] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;D:\ Drive Space;1545588485
+[1545588487] SERVICE ALERT: win-2012;D:\ Drive Space;UNKNOWN;HARD;3;NSClient - ERROR: No performance data from command: check_drivesize
+[1545588498] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;W3SVC;1545588497
+[1545588507] wproc: Core Worker 21929: job 7 (pid=22043) timed out. Killing it
+[1545588507] wproc: CHECK job 7 from worker Core Worker 21929 timed out after 30.02s
+[1545588507] wproc:   host=win-2016; service=(null);
+[1545588507] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588507] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545588507] wproc: Core Worker 21929: job 7 (pid=22043): Dormant child reaped
+[1545588514] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;wuauserv;1545588513
+[1545588519] wproc: Core Worker 21929: job 8 (pid=22053) timed out. Killing it
+[1545588519] wproc: CHECK job 8 from worker Core Worker 21929 timed out after 30.01s
+[1545588519] wproc:   host=win-2012; service=(null);
+[1545588519] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588519] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545588519] wproc: Core Worker 21929: job 8 (pid=22053): Dormant child reaped
+[1545588567] wproc: Core Worker 21928: job 10 (pid=22082) timed out. Killing it
+[1545588567] wproc: CHECK job 10 from worker Core Worker 21928 timed out after 30.02s
+[1545588567] wproc:   host=win-2016; service=(null);
+[1545588567] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588567] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545588567] wproc: Core Worker 21928: job 10 (pid=22082): Dormant child reaped
+[1545588579] wproc: Core Worker 21930: job 10 (pid=22086) timed out. Killing it
+[1545588579] wproc: CHECK job 10 from worker Core Worker 21930 timed out after 30.04s
+[1545588579] wproc:   host=win-2012; service=(null);
+[1545588579] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588579] Warning: Check of host 'win-2012' timed out after 30.04 seconds
+[1545588579] wproc: Core Worker 21930: job 10 (pid=22086): Dormant child reaped
+[1545588583] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;C:\ Drive Space;1545588583
+[1545588583] SERVICE NOTIFICATION: nagiosadmin;win-2012;C:\ Drive Space;OK;notify-service-by-email;C:\ - total: 39.66 Gb - used: 9.38 Gb (24%) - free 30.28 Gb (76%)
+[1545588583] SERVICE ALERT: win-2012;C:\ Drive Space;OK;HARD;1;C:\ - total: 39.66 Gb - used: 9.38 Gb (24%) - free 30.28 Gb (76%)
+[1545588613] wproc: Core Worker 21931: job 12 (pid=22107) timed out. Killing it
+[1545588613] wproc: CHECK job 12 from worker Core Worker 21931 timed out after 30.01s
+[1545588613] wproc:   host=win-2012; service=(null);
+[1545588613] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588613] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545588614] wproc: Core Worker 21931: job 12 (pid=22107): Dormant child reaped
+[1545588627] wproc: Core Worker 21930: job 12 (pid=22121) timed out. Killing it
+[1545588627] wproc: CHECK job 12 from worker Core Worker 21930 timed out after 30.01s
+[1545588627] wproc:   host=win-2016; service=(null);
+[1545588627] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588627] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545588627] wproc: Core Worker 21930: job 12 (pid=22121): Dormant child reaped
+[1545588641] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;D:\ Drive Space;1545588640
+[1545588672] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;D:\ Drive Space;1545588671
+[1545588673] wproc: Core Worker 21931: job 14 (pid=22154) timed out. Killing it
+[1545588674] wproc: CHECK job 14 from worker Core Worker 21931 timed out after 30.03s
+[1545588674] wproc:   host=win-2012; service=(null);
+[1545588674] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588674] Warning: Check of host 'win-2012' timed out after 30.03 seconds
+[1545588674] wproc: Core Worker 21931: job 14 (pid=22154): Dormant child reaped
+[1545588687] wproc: Core Worker 21929: job 14 (pid=22158) timed out. Killing it
+[1545588687] wproc: CHECK job 14 from worker Core Worker 21929 timed out after 30.00s
+[1545588687] wproc:   host=win-2016; service=(null);
+[1545588687] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588687] Warning: Check of host 'win-2016' timed out after 30.00 seconds
+[1545588687] HOST NOTIFICATION: nagiosadmin;win-2016;DOWN;notify-host-by-email;(Host check timed out after 30.00 seconds)
+[1545588687] wproc: Core Worker 21929: job 14 (pid=22158): Dormant child reaped
+[1545588733] wproc: Core Worker 21930: job 16 (pid=22196) timed out. Killing it
+[1545588733] wproc: CHECK job 16 from worker Core Worker 21930 timed out after 30.01s
+[1545588733] wproc:   host=win-2012; service=(null);
+[1545588733] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588733] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545588733] HOST NOTIFICATION: nagiosadmin;win-2012;DOWN;notify-host-by-email;(Host check timed out after 30.01 seconds)
+[1545588733] wproc: Core Worker 21930: job 16 (pid=22196): Dormant child reaped
+[1545588747] wproc: Core Worker 21931: job 17 (pid=22198) timed out. Killing it
+[1545588747] wproc: CHECK job 17 from worker Core Worker 21931 timed out after 30.01s
+[1545588747] wproc:   host=win-2016; service=(null);
+[1545588747] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588747] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545588747] wproc: Core Worker 21931: job 17 (pid=22198): Dormant child reaped
+[1545588793] wproc: Core Worker 21930: job 18 (pid=22223) timed out. Killing it
+[1545588793] wproc: CHECK job 18 from worker Core Worker 21930 timed out after 30.03s
+[1545588793] wproc:   host=win-2012; service=(null);
+[1545588793] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588793] Warning: Check of host 'win-2012' timed out after 30.03 seconds
+[1545588793] wproc: Core Worker 21930: job 18 (pid=22223): Dormant child reaped
+[1545588807] wproc: Core Worker 21931: job 20 (pid=22232) timed out. Killing it
+[1545588807] wproc: CHECK job 20 from worker Core Worker 21931 timed out after 30.01s
+[1545588807] wproc:   host=win-2016; service=(null);
+[1545588807] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588807] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545588807] wproc: Core Worker 21931: job 20 (pid=22232): Dormant child reaped
+[1545588853] wproc: Core Worker 21929: job 21 (pid=22248) timed out. Killing it
+[1545588853] wproc: CHECK job 21 from worker Core Worker 21929 timed out after 30.01s
+[1545588853] wproc:   host=win-2012; service=(null);
+[1545588853] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588853] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545588853] wproc: Core Worker 21929: job 21 (pid=22248): Dormant child reaped
+[1545588867] wproc: Core Worker 21928: job 22 (pid=22252) timed out. Killing it
+[1545588867] wproc: CHECK job 22 from worker Core Worker 21928 timed out after 30.02s
+[1545588867] wproc:   host=win-2016; service=(null);
+[1545588867] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588867] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545588867] wproc: Core Worker 21928: job 22 (pid=22252): Dormant child reaped
+[1545588913] wproc: Core Worker 21929: job 23 (pid=22272) timed out. Killing it
+[1545588913] wproc: CHECK job 23 from worker Core Worker 21929 timed out after 30.01s
+[1545588913] wproc:   host=win-2012; service=(null);
+[1545588913] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588913] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545588913] wproc: Core Worker 21929: job 23 (pid=22272): Dormant child reaped
+[1545588927] wproc: Core Worker 21928: job 24 (pid=22277) timed out. Killing it
+[1545588927] wproc: CHECK job 24 from worker Core Worker 21928 timed out after 30.01s
+[1545588927] wproc:   host=win-2016; service=(null);
+[1545588927] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588927] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545588927] wproc: Core Worker 21928: job 24 (pid=22277): Dormant child reaped
+[1545588973] wproc: Core Worker 21928: job 25 (pid=22291) timed out. Killing it
+[1545588973] wproc: CHECK job 25 from worker Core Worker 21928 timed out after 30.02s
+[1545588973] wproc:   host=win-2012; service=(null);
+[1545588973] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588973] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545588973] wproc: Core Worker 21928: job 25 (pid=22291): Dormant child reaped
+[1545588987] wproc: Core Worker 21931: job 26 (pid=22297) timed out. Killing it
+[1545588987] wproc: CHECK job 26 from worker Core Worker 21931 timed out after 30.03s
+[1545588987] wproc:   host=win-2016; service=(null);
+[1545588987] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545588987] Warning: Check of host 'win-2016' timed out after 30.03 seconds
+[1545588987] wproc: Core Worker 21931: job 26 (pid=22297): Dormant child reaped
+[1545589033] wproc: Core Worker 21930: job 27 (pid=22317) timed out. Killing it
+[1545589033] wproc: CHECK job 27 from worker Core Worker 21930 timed out after 30.02s
+[1545589033] wproc:   host=win-2012; service=(null);
+[1545589033] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589033] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545589033] wproc: Core Worker 21930: job 27 (pid=22317): Dormant child reaped
+[1545589047] wproc: Core Worker 21931: job 28 (pid=22319) timed out. Killing it
+[1545589047] wproc: CHECK job 28 from worker Core Worker 21931 timed out after 30.01s
+[1545589047] wproc:   host=win-2016; service=(null);
+[1545589047] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589047] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589047] wproc: Core Worker 21931: job 28 (pid=22319): Dormant child reaped
+[1545589069] wproc: Core Worker 21931: job 29 (pid=22334) timed out. Killing it
+[1545589069] wproc: CHECK job 29 from worker Core Worker 21931 timed out after 30.01s
+[1545589069] wproc:   host=win-2012; service=(null);
+[1545589069] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589069] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545589069] wproc: Core Worker 21931: job 29 (pid=22334): Dormant child reaped
+[1545589072] Caught SIGTERM, shutting down...
+[1545589072] Successfully shutdown... (PID=21925)
+[1545589074] Nagios 4.4.2 starting... (PID=22394)
+[1545589074] Local time is Sun Dec 23 23:47:54 IST 2018
+[1545589074] LOG VERSION: 2.0
+[1545589074] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1545589074] qh: core query handler registered
+[1545589074] qh: echo service query handler registered
+[1545589074] qh: help for the query handler registered
+[1545589074] wproc: Successfully registered manager as @wproc with query handler
+[1545589074] wproc: Registry request: name=Core Worker 22399;pid=22399
+[1545589074] wproc: Registry request: name=Core Worker 22396;pid=22396
+[1545589074] wproc: Registry request: name=Core Worker 22397;pid=22397
+[1545589074] wproc: Registry request: name=Core Worker 22398;pid=22398
+[1545589074] Successfully launched command file worker with pid 22402
+[1545589107] wproc: Core Worker 22396: job 0 (pid=22404) timed out. Killing it
+[1545589107] wproc: CHECK job 0 from worker Core Worker 22396 timed out after 30.01s
+[1545589107] wproc:   host=win-2016; service=(null);
+[1545589107] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589107] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589107] wproc: Core Worker 22396: job 0 (pid=22404): Dormant child reaped
+[1545589129] wproc: Core Worker 22396: job 1 (pid=22420) timed out. Killing it
+[1545589129] wproc: CHECK job 1 from worker Core Worker 22396 timed out after 30.01s
+[1545589129] wproc:   host=win-2012; service=(null);
+[1545589129] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589129] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545589129] wproc: Core Worker 22396: job 1 (pid=22420): Dormant child reaped
+[1545589167] wproc: Core Worker 22398: job 2 (pid=22427) timed out. Killing it
+[1545589167] wproc: CHECK job 2 from worker Core Worker 22398 timed out after 30.01s
+[1545589167] wproc:   host=win-2016; service=(null);
+[1545589167] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589167] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589167] wproc: Core Worker 22398: job 2 (pid=22427): Dormant child reaped
+[1545589189] wproc: Core Worker 22396: job 3 (pid=22439) timed out. Killing it
+[1545589189] wproc: CHECK job 3 from worker Core Worker 22396 timed out after 30.01s
+[1545589189] wproc:   host=win-2012; service=(null);
+[1545589189] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589189] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545589189] wproc: Core Worker 22396: job 3 (pid=22439): Dormant child reaped
+[1545589227] wproc: Core Worker 22398: job 4 (pid=22450) timed out. Killing it
+[1545589227] wproc: CHECK job 4 from worker Core Worker 22398 timed out after 30.01s
+[1545589227] wproc:   host=win-2016; service=(null);
+[1545589227] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589227] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589227] wproc: Core Worker 22398: job 4 (pid=22450): Dormant child reaped
+[1545589237] SERVICE ALERT: win-2016;D:\ Drive Space;UNKNOWN;HARD;3;NSClient - ERROR: No performance data from command: check_drivesize
+[1545589249] wproc: Core Worker 22399: job 5 (pid=22471) timed out. Killing it
+[1545589249] wproc: CHECK job 5 from worker Core Worker 22399 timed out after 30.01s
+[1545589249] wproc:   host=win-2012; service=(null);
+[1545589249] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589249] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545589249] wproc: Core Worker 22399: job 5 (pid=22471): Dormant child reaped
+[1545589287] wproc: Core Worker 22396: job 6 (pid=22480) timed out. Killing it
+[1545589287] wproc: CHECK job 6 from worker Core Worker 22396 timed out after 30.01s
+[1545589287] wproc:   host=win-2016; service=(null);
+[1545589287] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589287] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589287] wproc: Core Worker 22396: job 6 (pid=22480): Dormant child reaped
+[1545589289] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2016;C:\ Drive Space;1545589288
+[1545589289] SERVICE NOTIFICATION: nagiosadmin;win-2016;C:\ Drive Space;OK;notify-service-by-email;C:\ - total: 39.51 Gb - used: 11.40 Gb (29%) - free 28.11 Gb (71%)
+[1545589289] SERVICE ALERT: win-2016;C:\ Drive Space;OK;HARD;1;C:\ - total: 39.51 Gb - used: 11.40 Gb (29%) - free 28.11 Gb (71%)
+[1545589291] SERVICE NOTIFICATION: nagiosadmin;win-2016;Explorer;OK;notify-service-by-email;Explorer.EXE: Running
+[1545589291] SERVICE ALERT: win-2016;Explorer;OK;HARD;1;Explorer.EXE: Running
+[1545589297] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2016;NSClient++ Version;1545589296
+[1545589297] SERVICE NOTIFICATION: nagiosadmin;win-2016;NSClient++ Version;OK;notify-service-by-email;NSClient++ 0.5.3.4 2018-04-26
+[1545589297] SERVICE ALERT: win-2016;NSClient++ Version;OK;HARD;1;NSClient++ 0.5.3.4 2018-04-26
+[1545589309] wproc: Core Worker 22398: job 6 (pid=22494) timed out. Killing it
+[1545589309] wproc: CHECK job 6 from worker Core Worker 22398 timed out after 30.02s
+[1545589309] wproc:   host=win-2012; service=(null);
+[1545589309] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589309] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545589309] wproc: Core Worker 22398: job 6 (pid=22494): Dormant child reaped
+[1545589317] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;Explorer;1545589316
+[1545589319] wproc: Core Worker 22396: job 8 (pid=22505) timed out. Killing it
+[1545589319] wproc: CHECK job 8 from worker Core Worker 22396 timed out after 30.02s
+[1545589319] wproc:   host=win-2016; service=(null);
+[1545589319] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589319] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545589319] wproc: Core Worker 22396: job 8 (pid=22505): Dormant child reaped
+[1545589331] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2016;CPU Load;1545589330
+[1545589331] SERVICE NOTIFICATION: nagiosadmin;win-2016;CPU Load;OK;notify-service-by-email;CPU Load 1% (5 min average)
+[1545589331] SERVICE ALERT: win-2016;CPU Load;OK;HARD;1;CPU Load 1% (5 min average)
+[1545589342] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2016;Memory Usage;1545589341
+[1545589342] SERVICE NOTIFICATION: nagiosadmin;win-2016;Memory Usage;OK;notify-service-by-email;Memory usage: total:2545.57 MB - used: 1099.75 MB (43%) - free: 1445.82 MB (57%)
+[1545589342] SERVICE ALERT: win-2016;Memory Usage;OK;HARD;1;Memory usage: total:2545.57 MB - used: 1099.75 MB (43%) - free: 1445.82 MB (57%)
+[1545589351] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2016;Uptime;1545589350
+[1545589351] SERVICE NOTIFICATION: nagiosadmin;win-2016;Uptime;OK;notify-service-by-email;System Uptime - 0 day(s) 6 hour(s) 0 minute(s)
+[1545589351] SERVICE ALERT: win-2016;Uptime;OK;HARD;1;System Uptime - 0 day(s) 6 hour(s) 0 minute(s)
+[1545589361] wproc: Core Worker 22399: job 11 (pid=22552) timed out. Killing it
+[1545589361] wproc: CHECK job 11 from worker Core Worker 22399 timed out after 30.01s
+[1545589361] wproc:   host=win-2016; service=(null);
+[1545589361] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589361] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589362] wproc: Core Worker 22399: job 11 (pid=22552): Dormant child reaped
+[1545589369] wproc: Core Worker 22396: job 11 (pid=22571) timed out. Killing it
+[1545589369] wproc: CHECK job 11 from worker Core Worker 22396 timed out after 30.01s
+[1545589369] wproc:   host=win-2012; service=(null);
+[1545589369] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589369] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545589369] wproc: Core Worker 22396: job 11 (pid=22571): Dormant child reaped
+[1545589376] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2016;Uptime;1545589375
+[1545589406] wproc: Core Worker 22397: job 14 (pid=22613) timed out. Killing it
+[1545589406] wproc: CHECK job 14 from worker Core Worker 22397 timed out after 30.01s
+[1545589406] wproc:   host=win-2016; service=(null);
+[1545589406] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589406] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589407] wproc: Core Worker 22397: job 14 (pid=22613): Dormant child reaped
+[1545589429] wproc: Core Worker 22396: job 15 (pid=22651) timed out. Killing it
+[1545589429] wproc: CHECK job 15 from worker Core Worker 22396 timed out after 30.02s
+[1545589429] wproc:   host=win-2012; service=(null);
+[1545589429] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589429] Warning: Check of host 'win-2012' timed out after 30.02 seconds
+[1545589429] wproc: Core Worker 22396: job 15 (pid=22651): Dormant child reaped
+[1545589466] wproc: Core Worker 22397: job 16 (pid=22657) timed out. Killing it
+[1545589466] wproc: CHECK job 16 from worker Core Worker 22397 timed out after 30.02s
+[1545589466] wproc:   host=win-2016; service=(null);
+[1545589466] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589466] Warning: Check of host 'win-2016' timed out after 30.02 seconds
+[1545589467] wproc: Core Worker 22397: job 16 (pid=22657): Dormant child reaped
+[1545589489] wproc: Core Worker 22399: job 17 (pid=22669) timed out. Killing it
+[1545589489] wproc: CHECK job 17 from worker Core Worker 22399 timed out after 30.04s
+[1545589489] wproc:   host=win-2012; service=(null);
+[1545589489] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589489] Warning: Check of host 'win-2012' timed out after 30.04 seconds
+[1545589489] wproc: Core Worker 22399: job 17 (pid=22669): Dormant child reaped
+[1545589507] SERVICE ALERT: win-2016;W3SVC;UNKNOWN;HARD;3;Failed to open service W3SVC: 424: The specified service does not exist as an installed service.
+[1545589526] wproc: Core Worker 22396: job 18 (pid=22679) timed out. Killing it
+[1545589526] wproc: CHECK job 18 from worker Core Worker 22396 timed out after 30.01s
+[1545589526] wproc:   host=win-2016; service=(null);
+[1545589526] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589526] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589527] wproc: Core Worker 22396: job 18 (pid=22679): Dormant child reaped
+[1545589549] wproc: Core Worker 22398: job 18 (pid=22690) timed out. Killing it
+[1545589549] wproc: CHECK job 18 from worker Core Worker 22398 timed out after 30.01s
+[1545589549] wproc:   host=win-2012; service=(null);
+[1545589549] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589549] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545589549] wproc: Core Worker 22398: job 18 (pid=22690): Dormant child reaped
+[1545589586] wproc: Core Worker 22399: job 20 (pid=22700) timed out. Killing it
+[1545589586] wproc: CHECK job 20 from worker Core Worker 22399 timed out after 30.03s
+[1545589586] wproc:   host=win-2016; service=(null);
+[1545589586] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589586] Warning: Check of host 'win-2016' timed out after 30.03 seconds
+[1545589587] wproc: Core Worker 22399: job 20 (pid=22700): Dormant child reaped
+[1545589604] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2016;wuauserv;1545589603
+[1545589609] wproc: Core Worker 22396: job 20 (pid=22710) timed out. Killing it
+[1545589609] wproc: CHECK job 20 from worker Core Worker 22396 timed out after 30.01s
+[1545589609] wproc:   host=win-2012; service=(null);
+[1545589609] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589609] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545589609] wproc: Core Worker 22396: job 20 (pid=22710): Dormant child reaped
+[1545589646] wproc: Core Worker 22399: job 22 (pid=22727) timed out. Killing it
+[1545589646] wproc: CHECK job 22 from worker Core Worker 22399 timed out after 30.01s
+[1545589646] wproc:   host=win-2016; service=(null);
+[1545589646] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589646] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589647] wproc: Core Worker 22399: job 22 (pid=22727): Dormant child reaped
+[1545589649] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;win-2012;wuauserv;1545589648
+[1545589659] wproc: Core Worker 22398: job 22 (pid=22731) timed out. Killing it
+[1545589659] wproc: CHECK job 22 from worker Core Worker 22398 timed out after 30.01s
+[1545589659] wproc:   host=win-2012; service=(null);
+[1545589659] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589659] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545589659] wproc: Core Worker 22398: job 22 (pid=22731): Dormant child reaped
+[1545589706] wproc: Core Worker 22398: job 25 (pid=22765) timed out. Killing it
+[1545589706] wproc: CHECK job 25 from worker Core Worker 22398 timed out after 30.01s
+[1545589706] wproc:   host=win-2016; service=(null);
+[1545589706] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589706] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589707] wproc: Core Worker 22398: job 25 (pid=22765): Dormant child reaped
+[1545589719] wproc: Core Worker 22397: job 26 (pid=22772) timed out. Killing it
+[1545589719] wproc: CHECK job 26 from worker Core Worker 22397 timed out after 30.01s
+[1545589719] wproc:   host=win-2012; service=(null);
+[1545589719] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589719] Warning: Check of host 'win-2012' timed out after 30.01 seconds
+[1545589719] wproc: Core Worker 22397: job 26 (pid=22772): Dormant child reaped
+[1545589766] wproc: Core Worker 22399: job 28 (pid=22789) timed out. Killing it
+[1545589766] wproc: CHECK job 28 from worker Core Worker 22399 timed out after 30.01s
+[1545589766] wproc:   host=win-2016; service=(null);
+[1545589766] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589766] Warning: Check of host 'win-2016' timed out after 30.01 seconds
+[1545589767] wproc: Core Worker 22399: job 28 (pid=22789): Dormant child reaped
+[1545589779] wproc: Core Worker 22397: job 28 (pid=22793) timed out. Killing it
+[1545589779] wproc: CHECK job 28 from worker Core Worker 22397 timed out after 30.04s
+[1545589779] wproc:   host=win-2012; service=(null);
+[1545589779] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1545589779] Warning: Check of host 'win-2012' timed out after 30.04 seconds
+[1545589779] wproc: Core Worker 22397: job 28 (pid=22793): Dormant child reaped
