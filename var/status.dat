@@ -6,7 +6,7 @@
 ########################################
 
 info {
-	created=1545593525
+	created=1545593554
 	version=4.4.2
 	last_update_check=1545570727
 	update_available=0
@@ -40,16 +40,16 @@ programstatus {
 	next_event_id=151
 	next_problem_id=90
 	next_notification_id=112
-	active_scheduled_host_check_stats=2,12,14
-	active_ondemand_host_check_stats=0,2,2
+	active_scheduled_host_check_stats=2,13,16
+	active_ondemand_host_check_stats=1,2,3
 	passive_host_check_stats=0,0,0
-	active_scheduled_service_check_stats=8,30,34
+	active_scheduled_service_check_stats=10,33,40
 	active_ondemand_service_check_stats=0,0,0
 	passive_service_check_stats=0,0,0
-	cached_host_check_stats=0,2,2
+	cached_host_check_stats=1,2,3
 	cached_service_check_stats=0,0,0
 	external_command_stats=0,0,0
-	parallel_host_check_stats=2,12,14
+	parallel_host_check_stats=2,13,16
 	serial_host_check_stats=0,0,0
 	}
 
@@ -102,7 +102,7 @@ hoststatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -157,7 +157,7 @@ hoststatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -212,7 +212,7 @@ hoststatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -267,7 +267,7 @@ hoststatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=4.28
 	scheduled_downtime_depth=0
@@ -285,8 +285,8 @@ hoststatus {
 	event_handler=
 	has_been_checked=1
 	should_be_scheduled=1
-	check_execution_time=4.033
-	check_latency=0.009
+	check_execution_time=4.030
+	check_latency=0.000
 	check_type=0
 	current_state=0
 	last_hard_state=0
@@ -294,18 +294,18 @@ hoststatus {
 	current_event_id=149
 	current_problem_id=0
 	last_problem_id=63
-	plugin_output=PING OK - Packet loss = 0%, RTA = 19.26 ms
+	plugin_output=PING OK - Packet loss = 0%, RTA = 11.81 ms
 	long_plugin_output=
-	performance_data=rta=19.260000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
-	last_check=1545593471
-	next_check=1545593531
+	performance_data=rta=11.807000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+	last_check=1545593531
+	next_check=1545593591
 	check_options=0
 	current_attempt=1
 	max_attempts=10
 	state_type=1
 	last_state_change=1545592931
 	last_hard_state_change=1545592931
-	last_time_up=1545593471
+	last_time_up=1545593531
 	last_time_down=1545592931
 	last_time_unreachable=0
 	last_notification=1545592935
@@ -322,9 +322,9 @@ hoststatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
-	percent_state_change=4.28
+	percent_state_change=3.88
 	scheduled_downtime_depth=0
 	}
 
@@ -379,7 +379,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -436,7 +436,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -455,8 +455,8 @@ servicestatus {
 	event_handler=
 	has_been_checked=1
 	should_be_scheduled=1
-	check_execution_time=0.004
-	check_latency=0.004
+	check_execution_time=0.017
+	check_latency=0.000
 	check_type=0
 	current_state=2
 	last_hard_state=2
@@ -472,12 +472,12 @@ servicestatus {
 	last_time_ok=1545586174
 	last_time_warning=0
 	last_time_unknown=0
-	last_time_critical=1545593254
+	last_time_critical=1545593554
 	plugin_output=connect to address 192.168.1.6 and port 80: No route to host
 	long_plugin_output=HTTP CRITICAL - Unable to open TCP socket
 	performance_data=
-	last_check=1545593254
-	next_check=1545593554
+	last_check=1545593554
+	next_check=1545593854
 	check_options=0
 	current_notification_number=0
 	current_notification_id=0
@@ -493,7 +493,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -550,7 +550,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -607,7 +607,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -664,7 +664,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -683,8 +683,8 @@ servicestatus {
 	event_handler=
 	has_been_checked=1
 	should_be_scheduled=1
-	check_execution_time=0.002
-	check_latency=0.000
+	check_execution_time=0.001
+	check_latency=0.001
 	check_type=0
 	current_state=0
 	last_hard_state=0
@@ -697,15 +697,15 @@ servicestatus {
 	state_type=1
 	last_state_change=1545586025
 	last_hard_state_change=1545586025
-	last_time_ok=1545593225
+	last_time_ok=1545593525
 	last_time_warning=0
 	last_time_unknown=0
 	last_time_critical=0
 	plugin_output=SWAP OK - 100% free (2047 MB out of 2047 MB)
 	long_plugin_output=
 	performance_data=swap=2047MB;0;0;0;2047
-	last_check=1545593225
-	next_check=1545593525
+	last_check=1545593525
+	next_check=1545593825
 	check_options=0
 	current_notification_number=0
 	current_notification_id=0
@@ -721,7 +721,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -740,7 +740,7 @@ servicestatus {
 	event_handler=
 	has_been_checked=1
 	should_be_scheduled=1
-	check_execution_time=0.013
+	check_execution_time=0.014
 	check_latency=0.001
 	check_type=0
 	current_state=0
@@ -754,15 +754,15 @@ servicestatus {
 	state_type=1
 	last_state_change=1545586284
 	last_hard_state_change=1545586284
-	last_time_ok=1545593241
+	last_time_ok=1545593541
 	last_time_warning=0
 	last_time_unknown=0
 	last_time_critical=0
-	plugin_output=PROCS OK: 49 processes with STATE = RSZDT
+	plugin_output=PROCS OK: 48 processes with STATE = RSZDT
 	long_plugin_output=
-	performance_data=procs=49;250;400;0;
-	last_check=1545593241
-	next_check=1545593541
+	performance_data=procs=48;250;400;0;
+	last_check=1545593541
+	next_check=1545593841
 	check_options=0
 	current_notification_number=0
 	current_notification_id=0
@@ -778,7 +778,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -835,7 +835,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -892,7 +892,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -949,7 +949,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1006,7 +1006,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1039,15 +1039,15 @@ servicestatus {
 	state_type=1
 	last_state_change=1545587247
 	last_hard_state_change=1545587247
-	last_time_ok=1545593247
+	last_time_ok=1545593547
 	last_time_warning=0
 	last_time_unknown=0
 	last_time_critical=0
-	plugin_output=DISK OK - free space: / 33159 MB (87.58% inode=99%):
+	plugin_output=DISK OK - free space: / 33142 MB (87.53% inode=99%):
 	long_plugin_output=
-	performance_data=/=4701MB;30288;34074;0;37861
-	last_check=1545593247
-	next_check=1545593547
+	performance_data=/=4718MB;30288;34074;0;37861
+	last_check=1545593547
+	next_check=1545593847
 	check_options=0
 	current_notification_number=0
 	current_notification_id=0
@@ -1063,7 +1063,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1120,7 +1120,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1177,7 +1177,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1234,7 +1234,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1291,7 +1291,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1348,7 +1348,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1405,7 +1405,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1462,7 +1462,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1519,7 +1519,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1576,7 +1576,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1633,7 +1633,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1690,7 +1690,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=0.00
 	scheduled_downtime_depth=0
@@ -1747,7 +1747,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=1
 	percent_state_change=25.59
 	scheduled_downtime_depth=0
@@ -1804,7 +1804,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=1
 	percent_state_change=20.53
 	scheduled_downtime_depth=0
@@ -1861,7 +1861,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=1
 	percent_state_change=24.93
 	scheduled_downtime_depth=0
@@ -1918,7 +1918,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=1
 	percent_state_change=25.20
 	scheduled_downtime_depth=0
@@ -1975,7 +1975,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=9.61
 	scheduled_downtime_depth=0
@@ -2032,7 +2032,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=1
 	percent_state_change=24.54
 	scheduled_downtime_depth=0
@@ -2089,7 +2089,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=15.33
 	scheduled_downtime_depth=0
@@ -2108,8 +2108,8 @@ servicestatus {
 	event_handler=
 	has_been_checked=1
 	should_be_scheduled=1
-	check_execution_time=0.006
-	check_latency=0.000
+	check_execution_time=0.022
+	check_latency=0.002
 	check_type=0
 	current_state=0
 	last_hard_state=0
@@ -2122,15 +2122,15 @@ servicestatus {
 	state_type=1
 	last_state_change=1545589331
 	last_hard_state_change=1545589331
-	last_time_ok=1545592931
+	last_time_ok=1545593531
 	last_time_warning=0
 	last_time_unknown=0
 	last_time_critical=1545589331
-	plugin_output=CPU Load 0% (5 min average)
+	plugin_output=CPU Load 27% (5 min average)
 	long_plugin_output=
-	performance_data='5 min avg Load'=0%;80;90;0;100
-	last_check=1545592931
-	next_check=1545593531
+	performance_data='5 min avg Load'=27%;80;90;0;100
+	last_check=1545593531
+	next_check=1545594131
 	check_options=0
 	current_notification_number=1
 	current_notification_id=101
@@ -2146,9 +2146,9 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
-	percent_state_change=10.13
+	percent_state_change=9.87
 	scheduled_downtime_depth=0
 	}
 
@@ -2203,7 +2203,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=9.87
 	scheduled_downtime_depth=0
@@ -2222,7 +2222,7 @@ servicestatus {
 	event_handler=
 	has_been_checked=1
 	should_be_scheduled=1
-	check_execution_time=0.011
+	check_execution_time=0.025
 	check_latency=0.001
 	check_type=0
 	current_state=0
@@ -2236,15 +2236,15 @@ servicestatus {
 	state_type=1
 	last_state_change=1545589342
 	last_hard_state_change=1545589342
-	last_time_ok=1545592942
+	last_time_ok=1545593542
 	last_time_warning=0
 	last_time_unknown=0
 	last_time_critical=1545589342
-	plugin_output=Memory usage: total:2071.57 MB - used: 829.62 MB (40%) - free: 1241.95 MB (60%)
+	plugin_output=Memory usage: total:2629.57 MB - used: 987.75 MB (38%) - free: 1641.82 MB (62%)
 	long_plugin_output=
-	performance_data='Memory usage'=829.62MB;1657.25;1864.41;0.00;2071.57
-	last_check=1545592942
-	next_check=1545593542
+	performance_data='Memory usage'=987.75MB;2103.66;2366.62;0.00;2629.57
+	last_check=1545593542
+	next_check=1545594142
 	check_options=0
 	current_notification_number=1
 	current_notification_id=102
@@ -2260,9 +2260,9 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
-	percent_state_change=10.13
+	percent_state_change=9.87
 	scheduled_downtime_depth=0
 	}
 
@@ -2317,7 +2317,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=9.87
 	scheduled_downtime_depth=0
@@ -2374,7 +2374,7 @@ servicestatus {
 	flap_detection_enabled=1
 	process_performance_data=1
 	obsess=1
-	last_update=1545593525
+	last_update=1545593554
 	is_flapping=0
 	percent_state_change=9.87
 	scheduled_downtime_depth=0
